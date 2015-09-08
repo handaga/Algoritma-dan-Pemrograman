@@ -31,12 +31,8 @@ Mahasiwa mengenal cara membuat program aplikasi Arduino dengan bahasa C
 ### Tugas Pertama
 Membuat USER ACCOUNT di [GITHUB](http://github.com) dengan menggunakan **NIM** sebagai **username** dengan langkah sebagai berikut:
 
-1. Buka halaman web [GITHUB](http://github.com) 
-
+(1) Buka halaman web [GITHUB](http://github.com) 
 ![SignUp GITHUB](https://github.com/handaga/Algoritma-dan-Pemrograman/blob/master/images/github01.jpg)
-
-2. Klik button "Sign Up" (di pojok kanan atas), selanjut isikan USERNAME dengan NIM, isi bagian EMAIL dengan menggunakan alamat EMAIL anda yang berlaku sekarang ini, kemudian buat PASSWORD sembarang (Bukan password untuk buka email). 
-
+(2) Klik button "Sign Up" (di pojok kanan atas), selanjut isikan USERNAME dengan NIM, isi bagian EMAIL dengan menggunakan alamat EMAIL anda yang berlaku sekarang ini, kemudian buat PASSWORD sembarang (Bukan password untuk buka email). 
 ![Create an Account](https://github.com/handaga/Algoritma-dan-Pemrograman/blob/master/images/github02.jpg)
-
-3. Klik button "Create an account"
+(3) Klik button "Create an account"
