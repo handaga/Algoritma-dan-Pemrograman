@@ -77,13 +77,14 @@ sebagai contoh untuk menuangkan algoritma menghitung luas lingkaran ke dalam bah
 
 `#include <stdio.h>`
 
-`int main() {
+`int main() {`
+
     doubel jari_jari;
     double luas;
     jari_jari = 20;
     luas = 3.14 * jari_jari * jari_jari;
     printf("Luas lingkaran = %1f", luas);	
     return 0;
-}`
+`}`
 
 
