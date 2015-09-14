@@ -1,89 +1,38 @@
-## Pengenalan istilah Algoritma dan Pemrograman
-Bab ini menerangkan mengenai pengertian tentang istilah program, bahasa pemrograman dan algoritma untuk meneyelesaikan masalah. 
-* Pengertian Program dan Bahasa Pemrograman
-* Penerjemahan Bahasa
-* Penyelesaian masalah dengan program
+## Selamat datang di Wiki Algoritma-dan-Pemrograman
 
-***
-> ### Pengertian Program dan Bahasa Pemrograman
+### Tujuan:
+Kuliah ini bertujuan untuk memberikan pengenalan tentang cara memyusun program komputer dengan algoritma yang benar kepada mahasiswa semester-1 program studi teknik elektro. Pembahasan dimulai dari pengertian dasar mengenai algoritma dan pemrograman. Dasar-dasar pemgrograman bahasa C, operasi bersyarat (**if**), operasi pengulangan (**loop**), Deret (larik), subrutin (fungsi), rekursi, pencarian data dan pengurutan data. 
 
-Kumpulan instruksi yang digunakan untuk mengatur komputer agar melakukan suatu tindakan tertentu disebut program.
+### Sasaran
+Mahasiswa mampu merancang program dengan menggunakan flowchart atau pseudocode 
+Mahasiwa mampu membuat aplikasi komputer desktop sederhana dengan menggunakan bahasa pemrograman C
+Mahasiwa mengenal cara membuat program aplikasi Arduino dengan bahasa C
 
-> **Programer** (pemrogram) adalah orang yang membuat program, dan aktifiktas membuat program disebut dengan pemrograman (**programming** atau **coding**). Sedangkan instruksi yang digunakan untuk menyusun program disebut **bahasa permrograman**.
-
-Dalam bidang komputer terdapat berbagai jenis bahasa pemrograman, yang terdiri atas dua kelompok yaitu kelompok bahasa tingkat-tinggi (**high-level language**) dan kelompok bahasa tingkat rendah (**low-level language**).  
-
-Bahasa Tingkat Tinggi adalah bahasa pemroraman yang berorientasi pada bahasa manusia, contoh: C, C++, Java, Pascal, Basic. python, php dan lain-lain.
-
-Bahasa Tingkat Rendah adalah bahasa yang berorienatasi pada mesin. Contoh: Assembly
-
-Komputer hanya dapat menjalankan instruksi dalam bentuk kombinasi bilangan biner, 0 dan 1, oleh karena itu agar instruksi manusia kepada sebuah mesin dengan menggunakan bahasa pemrograman dapat dipahami oleh sebuah komputer diperlukan sebuah penterjemah bahasa (**translator**)
-
-> ### Penterjemah Bahasa 
-
-Terdapat dua jenis penterjemah bahasa pemrograman yaitu:
-* Kompiler (Compiler) 
-* Interpreter
-
-Kompiler bekerja dengan cara menciptakan sebuah berkas baru dari berkas kode sumber. Berkas baru ini selanjutnya dapat dijalankan dalam komputer target secara langsung tidak memerlukan bantuan kompiler lagi.  Contoh kompiler antara lain: C, C++, Pascal, C#, Fortran dan lainnya
-
-Sedangkan interpreter bekerja dengan cara menterjemahkan setiap baris perintah atau sekelompok baris perintah yang dimasukkan oleh programer. Kode sumber tidak dapat dijalankan tanpa interpreter. Contoh Interpreter antaralain Python, php, Ruby dan lainnya.
-
-> Proses penterjemahan dari bahasa pemrograman menjadi instruksi mesin disebut **proses kompilasi**. 
-
-Luaran dari proses kompilasi adalah sebuah berkas yang berisi instruksi mesin (kode obyek, biasanya diberi ekstensi *.o singkatan dari Object), selanjutnya dilakukan proses linking yaitu proses penggabungan dengan obyek-obyek yang di-include dari pustaka/library dalam header dan pembuatan berkas baru dengan ekstensi *.exe agar dapat dijalankan secara langsung dalam komputer.
-
-![Gambar 1-1. Proses Kompilasi](https://github.com/handaga/Algoritma-dan-Pemrograman/blob/master/images/ch-01-04.svg)
+### Pustaka
+1. Tutorialspoint, [Learning C](http://www.tutorialspoint.com/cprogramming/index.htm)
+2. Abdul Kadir, Algoritma dan Pemrograman Menggunakan C & C++, Andi Offset, Yogyakarta, 2012, [Beli Onine](http://andipublisher.com/produk-1012004492-algoritma-amp-pemrograman-menggunakan-c-.html)
+3. Arduino, [References](https://www.arduino.cc/en/Reference/HomePage)
 
 
-> ## Penyelesaian Masalah dengan Program
+### TOOLS (Alat Bantu Software/Perangkat Lunak)
+1. Laboratorium VIRTUAL di [learn-C.org](http://www.learn-c.org/) atau di [tutorialspoint](http://www.tutorialspoint.com/cprogramming/index.htm), compiler menggunakan GCC
+2. [Bloodshed](http://www.bloodshed.net/download.html), compiler menggunakan MingGW32
+3. [Codeblock](http://www.codeblocks.org/), compiler menggunakan MingGW32
+4. [Eclipse](http://www.eclipse.org), perlu tambahan compiler (MingGW32) atau VisualStudio, dan JDK (Java Development Kit), fasilitas lebih lengkap
+5. [Visual Studio Express](https://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx)
 
-Tiga langkah penting dalam penyelesaian masalah:
+### Tata Tertib
+1. Kehadiran minimal agar dapat mengikuti UJIAN AKHIR adalah 75%, tidak ada ujian susulan KECUALI ada kepentingan istimewa (atau SAKIT).
+2. Boleh mengikuti kuliah di kelas yang lain jika berhalangan hadir di kelas yang seharusnya
+3. Semua tugas harus diupload di [GITHUB](http://github.com) dengan menggunakan **NIM** sebagai user github, contoh: http://github.com/D400150001/tugas-c
+4. HP harus di set pada mode silent
+5. Semua materi kuliah akan diupload di github dengan alamat https://github.com/handaga/Algoritma-dan-Pemrograman
 
-* Menganalisa masalah dan membuat algoritma
-* Menuangkan algoritma ke dalam bentuk program 
-* Mengeksekusi dan menguji program
+### Tugas Pertama
+Membuat USER ACCOUNT di [GITHUB](http://github.com) dengan menggunakan **NIM** sebagai **username** dengan langkah sebagai berikut:
 
-### Menganalisa masalah dan membuat algoritma:
-
-Tindakan yang diperlukan adalah mengidentifikasi data yang menjadi **MASUKAN/INPUT** dan mengidentifikasi  informasi yang akan menjadi **KELUARAN/OUTPUT**. Selanjutnya menentukan **PROSEDUR/PROSES** untuk mengolah **INPUT** menjadi **OUTPUT** seperti yang dikehendaki.  **PROSES/PROSEDURE** terdiri dari tahapan instruksi untuk menyelesaikan masalah sesuai dengan cara kerja komputer, inilah yang disebut sebagai **ALGORITMA**.
-
-![Gambar 1-2. Diagram Analisa Permasalahan](https://github.com/handaga/Algoritma-dan-Pemrograman/blob/master/images/ch-01-00.svg)
-
-ALGORITMA dapat disusun dengan menggunakan **FLOWCHART** (diagram alir) atau **PSEUDOCODE** (mirip kode program).
-
-Beberapa simbol DIAGRAM ALIR standar yang sering digunakan adalah sebagai berikut:
-
-![Gambar 1-3. Simbol Diagram Alir standar](https://github.com/handaga/Algoritma-dan-Pemrograman/blob/master/images/ch-01-01.svg)
-
-Keterangan:
-
-* **Terminator** : menyatakan titik awal atau titik akhir diagram alir, contoh:
-* **input/output** : juga disebut data, digunakan untuk operasi pemasukan data atau penampilan data, contoh:
-* **Proses** : menyatakan sebuah proses, misalnya proses perhitungan luas sebuah persegi panjang.  
-* **Proses terdifinisi** menyatakan sub-prosedur/sub-proses lain.
-* **Pengambilan Keputusan** digunakan untuk melakukan pengambilan keputusan
-* **Penghubung** digunakan untuk menghuungkan ke berbagai bagian dalam diagram alir.
-
-Contoh algoritma menghitung luas lingkaran:
-
-![Gambar 1-4. Contoh Algoritma Menghitung Luas Lingkaran](https://github.com/handaga/Algoritma-dan-Pemrograman/blob/master/images/ch-01-02.svg)
-
-### Menuangkan algoritma ke dalam bentuk program
-
-Untuk menuangkan sebuah algoritma ke dalam bentuk program diperlukan pengetahuan tentang bahasa pemrograman.  Dalam matakuliah ini akan dipelajari bahasa pemrograman C.   
-
-sebagai contoh untuk menuangkan algoritma menghitung luas lingkaran ke dalam bahasa C adalah sebagai berikut:
-
-`#include <stdio.h>`
-
-`int main() {
-    doubel jari_jari;
-    double luas;
-    jari_jari = 20;
-    luas = 3.14 * jari_jari * jari_jari;
-    printf("Luas lingkaran = %1f", luas);	
-    return 0;
-}`
-
-
+(1) Buka halaman web [GITHUB](http://github.com) 
+![SignUp GITHUB](https://github.com/handaga/Algoritma-dan-Pemrograman/blob/master/images/github01.jpg)
+(2) Klik button "Sign Up" (di pojok kanan atas), selanjut isikan USERNAME dengan NIM, isi bagian EMAIL dengan menggunakan alamat EMAIL anda yang berlaku sekarang ini, kemudian buat PASSWORD sembarang (Bukan password untuk buka email). 
+![Create an Account](https://github.com/handaga/Algoritma-dan-Pemrograman/blob/master/images/github02.jpg)
+(3) Klik button "Create an account"
