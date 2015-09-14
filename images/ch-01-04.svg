@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="22cm" height="24cm" viewBox="326 87 431 468" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <polygon style="fill: #ffffff" points="353.651,88 558.421,88 532.579,159 327.809,159 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="353.651,88 558.421,88 532.579,159 327.809,159 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="443.115" y="111.4">
+      <tspan x="443.115" y="111.4">kode sumber </tspan>
+      <tspan x="443.115" y="127.4">dalam bahasa c nama file</tspan>
+      <tspan x="443.115" y="143.4">main.c</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="385.34" y="200.954" width="115.55" height="43.1667"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="385.34" y="200.954" width="115.55" height="43.1667"/>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="443.115" y="227.704">
+      <tspan x="443.115" y="227.704">Kompilasi</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="376.843,286.075 534.865,286.075 509.387,356.075 351.365,356.075 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="376.843,286.075 534.865,286.075 509.387,356.075 351.365,356.075 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="443.115" y="308.975">
+      <tspan x="443.115" y="308.975">kode obyek </tspan>
+      <tspan x="443.115" y="324.975">(bahasa mesin)</tspan>
+      <tspan x="443.115" y="340.975">main.o</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="385.34" y="398.029" width="115.55" height="43.1667"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="385.34" y="398.029" width="115.55" height="43.1667"/>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="443.115" y="424.779">
+      <tspan x="443.115" y="424.779">Lingking</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="376.843,483.15 534.865,483.15 509.387,553.15 351.365,553.15 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="376.843,483.15 534.865,483.15 509.387,553.15 351.365,553.15 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="443.115" y="514.05">
+      <tspan x="443.115" y="514.05">aplikasi</tspan>
+      <tspan x="443.115" y="530.05">main.exe</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="578.932,384.603 756.729,384.603 731.251,454.603 553.454,454.603 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="578.932,384.603 756.729,384.603 731.251,454.603 553.454,454.603 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="655.091" y="415.503">
+      <tspan x="655.091" y="415.503">library/pustaka</tspan>
+      <tspan x="655.091" y="431.503">( #include &lt;stdio.h&gt; )</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="443.115" y1="159.986" x2="443.115" y2="190.212"/>
+    <polygon style="fill: #000000" points="443.115,197.712 438.115,187.712 443.115,190.212 448.115,187.712 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="443.115,197.712 438.115,187.712 443.115,190.212 448.115,187.712 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="443.115" y1="245.115" x2="443.115" y2="275.338"/>
+    <polygon style="fill: #000000" points="443.115,282.838 438.115,272.838 443.115,275.338 448.115,272.838 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="443.115,282.838 438.115,272.838 443.115,275.338 448.115,272.838 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="443.115" y1="357.076" x2="443.115" y2="387.299"/>
+    <polygon style="fill: #000000" points="443.115,394.799 438.115,384.799 443.115,387.299 448.115,384.799 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="443.115,394.799 438.115,384.799 443.115,387.299 448.115,384.799 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="443.115" y1="442.19" x2="443.115" y2="472.413"/>
+    <polygon style="fill: #000000" points="443.115,479.913 438.115,469.913 443.115,472.413 448.115,469.913 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="443.115,479.913 438.115,469.913 443.115,472.413 448.115,469.913 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="565.554" y1="419.607" x2="511.227" y2="419.609"/>
+    <polygon style="fill: #000000" points="503.727,419.61 513.727,414.609 511.227,419.609 513.728,424.609 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="503.727,419.61 513.727,414.609 511.227,419.609 513.728,424.609 "/>
+  </g>
+</svg>
