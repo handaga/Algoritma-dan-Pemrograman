@@ -33,5 +33,4 @@ Sedangkan interpreter bekerja dengan cara menterjemahkan setiap baris perintah a
 
 Luaran dari proses kompilasi adalah sebuah berkas yang berisi instruksi mesin (kode obyek, biasanya diberi ekstensi *.o singkatan dari Object), selanjutnya dilakukan proses linking yaitu proses penggabungan dengan obyek-obyek yang di-include dari pustaka/library dalam header dan pembuatan berkas baru dengan ekstensi *.exe agar dapat dijalankan secara langsung dalam komputer.
 
-![gambar proses kompilasi](https://github.com/handaga/Algoritma-dan-Pemrograman/blob/master/images/ch-01-04.svg)
-<img src="https://github.com/handaga/Algoritma-dan-Pemrograman/blob/master/images/ch-01-04.svg">
+![Gambar 1-1. Proses Kompilasi](https://github.com/handaga/Algoritma-dan-Pemrograman/blob/master/images/ch-01-04.svg)
