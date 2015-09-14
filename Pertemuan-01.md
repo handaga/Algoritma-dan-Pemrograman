@@ -34,3 +34,56 @@ Sedangkan interpreter bekerja dengan cara menterjemahkan setiap baris perintah a
 Luaran dari proses kompilasi adalah sebuah berkas yang berisi instruksi mesin (kode obyek, biasanya diberi ekstensi *.o singkatan dari Object), selanjutnya dilakukan proses linking yaitu proses penggabungan dengan obyek-obyek yang di-include dari pustaka/library dalam header dan pembuatan berkas baru dengan ekstensi *.exe agar dapat dijalankan secara langsung dalam komputer.
 
 ![Gambar 1-1. Proses Kompilasi](https://github.com/handaga/Algoritma-dan-Pemrograman/blob/master/images/ch-01-04.svg)
+
+
+> ## Penyelesaian Masalah dengan Program
+
+Tiga langkah penting dalam penyelesaian masalah:
+
+* Menganalisa masalah dan membuat algoritma
+* Menuangkan algoritma ke dalam bentuk program 
+* Mengeksekusi dan menguji program
+
+### Menganalisa masalah dan membuat algoritma:
+
+Tindakan yang diperlukan adalah mengidentifikasi data yang menjadi **MASUKAN/INPUT** dan mengidentifikasi  informasi yang akan menjadi **KELUARAN/OUTPUT**. Selanjutnya menentukan **PROSEDUR/PROSES** untuk mengolah **INPUT** menjadi **OUTPUT** seperti yang dikehendaki.  **PROSES/PROSEDURE** terdiri dari tahapan instruksi untuk menyelesaikan masalah sesuai dengan cara kerja komputer, inilah yang disebut sebagai **ALGORITMA**.
+
+![Gambar 1-2. Diagram Analisa Permasalahan](https://github.com/handaga/Algoritma-dan-Pemrograman/blob/master/images/ch-01-00.svg)
+
+ALGORITMA dapat disusun dengan menggunakan **FLOWCHART** (diagram alir) atau **PSEUDOCODE** (mirip kode program).
+
+Beberapa simbol DIAGRAM ALIR standar yang sering digunakan adalah sebagai berikut:
+
+![Gambar 1-3. Simbol Diagram Alir standar](https://github.com/handaga/Algoritma-dan-Pemrograman/blob/master/images/ch-01-01.svg)
+
+Keterangan:
+
+* **Terminator** : menyatakan titik awal atau titik akhir diagram alir, contoh:
+* **input/output** : juga disebut data, digunakan untuk operasi pemasukan data atau penampilan data, contoh:
+* **Proses** : menyatakan sebuah proses, misalnya proses perhitungan luas sebuah persegi panjang.  
+* **Proses terdifinisi** menyatakan sub-prosedur/sub-proses lain.
+* **Pengambilan Keputusan** digunakan untuk melakukan pengambilan keputusan
+* **Penghubung** digunakan untuk menghuungkan ke berbagai bagian dalam diagram alir.
+
+Contoh algoritma menghitung luas lingkaran:
+
+![Gambar 1-4. Contoh Algoritma Menghitung Luas Lingkaran](https://github.com/handaga/Algoritma-dan-Pemrograman/blob/master/images/ch-01-02.svg)
+
+### Menuangkan algoritma ke dalam bentuk program
+
+Untuk menuangkan sebuah algoritma ke dalam bentuk program diperlukan pengetahuan tentang bahasa pemrograman.  Dalam matakuliah ini akan dipelajari bahasa pemrograman C.   
+
+sebagai contoh untuk menuangkan algoritma menghitung luas lingkaran ke dalam bahasa C adalah sebagai berikut:
+
+`#include <stdio.h>`
+
+`int main() {
+    doubel jari_jari;
+    double luas;
+    jari_jari = 20;
+    luas = 3.14 * jari_jari * jari_jari;
+    printf("Luas lingkaran = %1f", luas);	
+    return 0;
+}`
+
+
