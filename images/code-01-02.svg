@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="10cm" height="9cm" viewBox="23 0 183 178" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <text font-size="6.77333" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23.5539" y="6.60815">
+    <tspan x="23.5539" y="6.60815"></tspan>
+    <tspan x="23.5539" y="15.0748">#include &lt;stdio.h&gt;</tspan>
+    <tspan x="23.5539" y="23.5415"></tspan>
+    <tspan x="23.5539" y="32.0082">int main() {</tspan>
+    <tspan x="23.5539" y="40.4748">	doubel jarak;</tspan>
+    <tspan x="23.5539" y="48.9415">	double waktu;</tspan>
+    <tspan x="23.5539" y="57.4082">	double kecepatan;</tspan>
+    <tspan x="23.5539" y="65.8748"></tspan>
+    <tspan x="23.5539" y="74.3415">	jarak = 5000;</tspan>
+    <tspan x="23.5539" y="82.8082">	</tspan>
+    <tspan x="23.5539" y="91.2748">	if (waktu==0) { </tspan>
+    <tspan x="23.5539" y="99.7415">		kecepatan = 0;</tspan>
+    <tspan x="23.5539" y="108.208">	} else {</tspan>
+    <tspan x="23.5539" y="116.675">		kecepatan = jarak / waktu;</tspan>
+    <tspan x="23.5539" y="125.141">	}</tspan>
+    <tspan x="23.5539" y="133.608">	</tspan>
+    <tspan x="23.5539" y="142.075">	printf("Kecepatan = %1f", kecepatan);</tspan>
+    <tspan x="23.5539" y="150.541">	</tspan>
+    <tspan x="23.5539" y="159.008">	return 0;</tspan>
+    <tspan x="23.5539" y="167.475">}</tspan>
+    <tspan x="23.5539" y="175.941"></tspan>
+  </text>
+</svg>

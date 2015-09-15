@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="10cm" height="7cm" viewBox="16 9 183 135" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <text font-size="6.77333" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="16.4657" y="15.3322">
+    <tspan x="16.4657" y="15.3322"></tspan>
+    <tspan x="16.4657" y="23.7989">#include &lt;stdio.h&gt;</tspan>
+    <tspan x="16.4657" y="32.2655"></tspan>
+    <tspan x="16.4657" y="40.7322">int main() {</tspan>
+    <tspan x="16.4657" y="49.1989">	double jari_jari;</tspan>
+    <tspan x="16.4657" y="57.6655">	double luas;</tspan>
+    <tspan x="16.4657" y="66.1322"></tspan>
+    <tspan x="16.4657" y="74.5989">	jari_jari = 20;</tspan>
+    <tspan x="16.4657" y="83.0655">	</tspan>
+    <tspan x="16.4657" y="91.5322">	luas = 3.14 * jari_jari * jari_jari;</tspan>
+    <tspan x="16.4657" y="99.9989">	</tspan>
+    <tspan x="16.4657" y="108.466">	printf("Luas lingkaran = %1f", luas);</tspan>
+    <tspan x="16.4657" y="116.932">	</tspan>
+    <tspan x="16.4657" y="125.399">	return 0;</tspan>
+    <tspan x="16.4657" y="133.866">}</tspan>
+    <tspan x="16.4657" y="142.332"></tspan>
+  </text>
+</svg>

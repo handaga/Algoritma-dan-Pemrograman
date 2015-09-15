@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="9cm" height="3cm" viewBox="11 11 162 51" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <text font-size="6.77333" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="11.4657" y="17.3322">
+    <tspan x="11.4657" y="17.3322"></tspan>
+    <tspan x="11.4657" y="25.7989">1. inisialisasi variable jari_jari, luas</tspan>
+    <tspan x="11.4657" y="34.2655">2. jari_jari = 20</tspan>
+    <tspan x="11.4657" y="42.7322">3. luas = 3.14 * jari_jari * jari_jari</tspan>
+    <tspan x="11.4657" y="51.1989">4. print(luas)</tspan>
+    <tspan x="11.4657" y="59.6655"></tspan>
+  </text>
+</svg>
