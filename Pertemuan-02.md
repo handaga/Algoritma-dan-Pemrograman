@@ -83,16 +83,82 @@ Untuk menuangkan sebuah algoritma ke dalam bentuk program diperlukan pengetahuan
 
 sebagai contoh untuk menuangkan algoritma menghitung luas lingkaran ke dalam bahasa C adalah sebagai berikut:
 
-`#include <stdio.h>`
+![code-01] (https://cdn.rawgit.com/handaga/Algoritma-dan-Pemrograman/master/images/code-01-01.svg)
 
-`int main() {`
+### Pseudocode: algoritma menghitung luas lingkaran
 
-    doubel jari_jari;
-    double luas;
-    jari_jari = 20;
-    luas = 3.14 * jari_jari * jari_jari;
-    printf("Luas lingkaran = %1f", luas);	
-    return 0;
-`}`
+![pseudocode-01](https://cdn.rawgit.com/handaga/Algoritma-dan-Pemrograman/master/images/pcode-01-01.svg)
 
 
+Contoh-2: Sebuah algoritma untuk menghitung kecepatan rata-rata, untuk menempuh sebuah lintasan.
+
+![Gambar 1.5. COntoh algoritma menghitung kecepatan rata-rata](https://cdn.rawgit.com/handaga/Algoritma-dan-Pemrograman/master/images/ch-01-03.svg)
+
+Gambar 1.5. COntoh algoritma menghitung kecepatan rata-rata
+
+Kode Sumber (source code) menghitung kecepatan rata-rata
+
+![code-2](https://cdn.rawgit.com/handaga/Algoritma-dan-Pemrograman/master/images/code-01-02.svg)
+
+Pseudocode menghitung kecepatan rata-rata
+
+![psudocode-02](https://cdn.rawgit.com/handaga/Algoritma-dan-Pemrograman/master/images/pcode-01-02.svg)
+
+## Mengeksekusi dan Menguji Program
+Setelah pembuatan kode program diperlukan proses kompilasi, selanjutnya aplikasi dapat dijalankan untuk diuji kebenarannya. 
+
+Selama proses kompilasi ada beberapa kemungkinan kesalahan yang terjadi, terdapat dua jenis kesalahan yaitu:
+
+	1. Kesalahan Sintaksis 
+	2. Kesalahan Logika
+	3. Kesalahan runtime
+
+Kesalahan SINTAKSIS disebabkan adanya kesalahan dalam menulis program sehingga TIDAK SESUAI dengan KAIDAH bahasa pemrograman yang digunakan. Contoh dalam bahasa C, kurang tanda TITIK-KOMA ( ;) di bagian akhir baris perintah.  Kesalahan sintaksis terdeteksi pada saat melakukan proses kompilasi. 
+
+Kesalahan LOGIKA adalah kesalahan yang terjadi karena ada logika yang salah. Misalnya ketika menghitung luas lingkaran, salah memasukan angka 31,4 untuk menyatakan 'pi' yang benar adalah 3,14. Akibatnya hasil perhitungan menjadi SALAH. Kesalahan seperti ini kadang sulit terdeteksi, terutama bila program aplikasi sudah sangat komplek.
+
+Kesalahan runtime atau kadang disebut kesalahan fatal, adalah jenis kesalahan yang disebabkan oleh suatu operasi/instruksi dalam program yang tidak dapat dijalankan oleh komputer karena keterbatasan sumberdaya. Sebagai contoh, kesalahan runtime yang paling sering terjadi adalah adanya proses aritmatika pembagian angka dengan sebuiah angka NOL (devided by zero). Jika komputer dipaksa melakukan operasi pembagian dengan bilangan NOL maka akan terjadi kesalahan runtime, dan komputer akan menampilkan berita kesalahan dan proses eksekusi program dihentikan.
+
+Kesalahan dalam program secara umum disebut dengan BUG, dan proses pencaraian kesalahan dalam program komputer oleh seorang programer juga disebut dengan proses DEBUG.  Software tool yang bagus biasanya dilengkapi dengan fasilitas untuk melakukan DEBUGING (mencari BUG dan membetulkan kodeprogram). 
+
+Dengan menggunakan fasilitas DEBUGING programer dapat mengeksekusi kode program baris demi baris sambil melakukan evaluasi terhadap data input dan outputnya.
+
+
+## TUGAS-01
+Membuat ALGORITMA dengan DIAGRAM ALIR dan PSEUDOCODE untuk mencari  AKAR-AKAR dari persamaan kwadrat:
+aX^2 + bx + c = 0
+
+### Note:
+
+1. Software GRATIS untuk mengedit gambar DIAGRAM ALIR  [DIA: http://dia-installer.de](http://dia-installer.de)
+2. Software GRATIS untuk mengupload FILE SEMBARANG ke github.com  [GIT: https://git-scm.com/](https://git-scm.com)
+
+## CARA MEMBUAT FILE BARU di GITHUB.COM 
+
+###  ONLINE
+
+1. Login to http://github.com
+2. Membuat REPOSITORY baru (click menu 'New Repository'), masukan nama contoh: 'TUGAS-C'
+3. Click/Buka reposiroty tersebut ('TUGAS-C')
+4. Dibagian atas (sub-title) disamping nama respository, terdapat tanda +
+5. Buat sebuah file baru dengan cara CLICK pada tanda + tersebut, berikan nama file contoh 'tugas-01.c'
+6. Kemudian tuliskan jawaban tugas di bagian bawahnya
+7. Jika sudah selesai, di bagian bawah kotak editor terdapat sebuah tombol warna hijau 'commit ..', click tombol tersebut untuk menyimpan file.
+
+
+### OFFLINE
+
+(note: saat menyalin dan mengupload perlu online/internet)
+
+1. Install software [GIT](https://git-scm.com)
+2. Jalankan program 'Git Bash'
+3. Buat folder/direktori kerja baru, contoh: `$ mkdir wd`, `wd` adalah nama folder kerja baru
+4. Masuk ke dalam folder kerja dengan perintah `$ cd wd`
+5. Menyalin repository dari github.com (pastikan anda sedang online), dengan perintah seperti berikut: `$ git clone http://github.com/[NIM]/[nama repository]`  contoh: `$ git clone http://github.com/handaga/algoritma-dan-pemrograman`
+6. Jika proses copy berhasil git akan membuat sebuah folder baru dengan nama yang sama dengan nama repository yang disalin, dalam contoh di atas, maka di bawah folder `wd` akan terbuat sub-folder baru dengan nama `algoritma-dan-pemrograman`. Untuk melihat folder baru tersebut dapat digunakan perintah  `$ ls`. 
+7. Selanjutnya anda dapat bekerja secara OFFLINE, dengan menambahkan FILE atau FOLDER baru di bawah folder `algoritma-dan-pemrograman`. Untuk melakukan hal ini dapat digunakan `Windows Explorer`
+8. Jika sudah selesai menambah file/folder kedalam repository, selanjutnya untuk mengupdate/mengupload semua hasil kerja ke GITHUB.COM anda perlu menjalankan `GIT Bash` dan memiliki koneksi internet.
+9. Jalankan `Git Bash` dan buka folder kerja, contoh `$ cd wd` then `$ cd algoritma-dan-pemrograman`
+10. Tambahkan SEMUA folder atau file baru dalam proyek, dengan perintah `$ git add [nama file/folder]`. Contoh: `$ git add main.c`
+11. Jalankan perintah COMMIT, `$ git commit -m 'menambah file baru'`
+12. upload semua yang sudah ditambahkan ke github.com, `$ git push origin master`, selanjutnya masukan USER Dan PASSWORD anda.
