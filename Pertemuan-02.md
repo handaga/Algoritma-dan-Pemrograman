@@ -35,6 +35,8 @@ Luaran dari proses kompilasi adalah sebuah berkas yang berisi instruksi mesin (k
 
 ![Gambar 1-1. Proses Kompilasi](https://cdn.rawgit.com/handaga/Algoritma-dan-Pemrograman/master/images/ch-01-04.svg)
 
+Gambar 1.1. Proses Kompilasi
+
 > ## Penyelesaian Masalah dengan Program
 
 Tiga langkah penting dalam penyelesaian masalah:
@@ -47,13 +49,17 @@ Tiga langkah penting dalam penyelesaian masalah:
 
 Tindakan yang diperlukan adalah mengidentifikasi data yang menjadi **MASUKAN/INPUT** dan mengidentifikasi  informasi yang akan menjadi **KELUARAN/OUTPUT**. Selanjutnya menentukan **PROSEDUR/PROSES** untuk mengolah **INPUT** menjadi **OUTPUT** seperti yang dikehendaki.  **PROSES/PROSEDURE** terdiri dari tahapan instruksi untuk menyelesaikan masalah sesuai dengan cara kerja komputer, inilah yang disebut sebagai **ALGORITMA**.
 
-![Gambar 1-2. Diagram Analisa Permasalahan](https://github.com/handaga/Algoritma-dan-Pemrograman/blob/master/images/ch-01-00.svg)
+![Gambar 1-2. Diagram Analisa Permasalahan](https://cdn.rawgit.com/handaga/Algoritma-dan-Pemrograman/master/images/ch-01-00.svg)
+
+Gambar 1.2. Diagram Analisa Permasalahan
 
 ALGORITMA dapat disusun dengan menggunakan **FLOWCHART** (diagram alir) atau **PSEUDOCODE** (mirip kode program).
 
 Beberapa simbol DIAGRAM ALIR standar yang sering digunakan adalah sebagai berikut:
 
-![Gambar 1-3. Simbol Diagram Alir standar](https://github.com/handaga/Algoritma-dan-Pemrograman/blob/master/images/ch-01-01.svg)
+![Gambar 1-3. Simbol Diagram Alir standar](https://cdn.rawgit.com/handaga/Algoritma-dan-Pemrograman/master/images/ch-01-01.svg)
+
+Gambar 1.3. Simbol Diagram Alir Standar 
 
 Keterangan:
 
@@ -66,7 +72,10 @@ Keterangan:
 
 Contoh algoritma menghitung luas lingkaran:
 
-![Gambar 1-4. Contoh Algoritma Menghitung Luas Lingkaran](https://github.com/handaga/Algoritma-dan-Pemrograman/blob/master/images/ch-01-02.svg)
+![Gambar 1-4. Contoh Algoritma Menghitung Luas Lingkaran](https://cdn.rawgit.com/handaga/Algoritma-dan-Pemrograman/master/images/ch-01-02.svg)
+
+Gambar 1.4. Contoh Algoritma Menghitung Luas Lingkaran
+
 
 ### Menuangkan algoritma ke dalam bentuk program
 
