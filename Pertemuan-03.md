@@ -1,5 +1,51 @@
+## Struktur Dasar Algoritma
+
+Bagian ini membahas tentang struktur dasar yang membentuk sebuah Algoritma. Terdapat tiga struktur utama dalam Algoritma:
+
+1. Struktur sekuensial
+2. Struktur seleksi (if-then)
+3. Struktur pengulangan (loop)
+
+### SEKUENSIAL
+
+Pada struktur sekuensial, langkah-langkah yang dilakukan dalam algoritma diproses secara berurutan:
+
+![Gambar 2.1 Algoritma Sekuensial](https://cdn.rawgit.com/handaga/Algoritma-dan-Pemrograman/master/images/ch-02-01.svg)
+
+contoh kasus:
+
+* Buatlah diagram alir untuk mengubah nilai suhu yang semula bersatusan Fahrenheit menjadi Celcius
+* Diagram alir untuk menghitung sisi-miring dari sebuah segitiga.
+* Diagram alir untuk menukar isi dua buah variabel
+
+### Seleksi (if-then)
+
+Sturktur seleksi (if-then) menyatakan pemilihan langkah berdasarkan suatu kondisi (pengambilan keputusan).
+
+![Gambar 2.2 Algoritma Seleksi atau if-then](https://cdn.rawgit.com/handaga/Algoritma-dan-Pemrograman/master/images/ch-02-02.svg)
+
+Contoh kasus:
+
+* Diagram alir untuk menentukan bilangan terbesar dari dua buah bilangan x dan y.
+* Sebuah minimarket memberikan diskon 10% bagi pembeli yang belanja minimum 100.000.
+
+### Pengulangan (loop)
+
+Struktur pengulangan menyatakan suatu tindakan yang dijalankan berulang kali, selama kondisi terpenuhi (benar).
+
+![Gambar 2.3a Algoritma Pengulangan atau Loop](https://cdn.rawgit.com/handaga/Algoritma-dan-Pemrograman/master/images/ch-02-03.svg)
+
+atau
+
+![Gambar 2.3b Algoritma Pengulangan atau Loop](https://cdn.rawgit.com/handaga/Algoritma-dan-Pemrograman/master/images/ch-02-03b.svg)
+
+Contoh kasus:
+
+* Buatlah tulisan "selamat Belajar" sebanyak 12 baris dengan menggunakan algoritma berulang.
+* Buatlah tabel yang berisi nilai kuadrat dari seuah angka berurutan dari 1 sampai 10, dengan menggunakan struktur berulang.
+
 ## Pedoman Penyusunan Algoritma
-Bab ini menjelaskan mengenai ketentuan yang digunakan untuk menyusun Algoritma dan Pseudocode.
+Bagian ini menjelaskan mengenai ketentuan yang digunakan untuk menyusun Algoritma dan Pseudocode.
 
 * Dasar Penyusunan Algoritma
 * Pedoman Penyusunan Pseudocode
