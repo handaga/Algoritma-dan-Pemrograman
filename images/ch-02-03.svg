@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="23cm" height="20cm" viewBox="47 23 442 392" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <polygon style="fill: #ffffff" points="213.999,100.743 326.512,157 213.999,213.257 101.486,157 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="213.999,100.743 326.512,157 213.999,213.257 101.486,157 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="213.999" y="152.9">
+      <tspan x="213.999" y="152.9">Apakah</tspan>
+      <tspan x="213.999" y="168.9">kondisi ini benar?</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="149.692" y="267.602" width="129.7" height="51"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="149.692" y="267.602" width="129.7" height="51"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="214.542" y="297.002">
+      <tspan x="214.542" y="297.002">Langkah -1</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="402.665,353.735 402.665,157.366 326.512,157.366 326.512,157 "/>
+    <polygon style="fill: #000000" points="402.665,361.235 397.665,351.235 402.665,353.735 407.665,351.235 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="402.665,361.235 397.665,351.235 402.665,353.735 407.665,351.235 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="213.973" y1="91.0074" x2="213.794" y2="24.2532"/>
+    <polygon style="fill: #000000" points="213.993,98.5073 208.966,88.5208 213.973,91.0074 218.966,88.494 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="213.993,98.5073 208.966,88.5208 213.973,91.0074 218.966,88.494 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="225.982" y="239.314">
+    <tspan x="225.982" y="239.314">YA</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="333.27" y="148.531">
+    <tspan x="333.27" y="148.531">TIDAK</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="213.999" y1="213.257" x2="214.297" y2="257.011"/>
+    <polygon style="fill: #000000" points="214.348,264.511 209.28,254.545 214.297,257.011 219.28,254.477 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="214.348,264.511 209.28,254.545 214.297,257.011 219.28,254.477 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="147.12,295.252 49,295.252 49,157 90.7499,157 "/>
+    <polygon style="fill: #000000" points="98.2499,157 88.2499,162 90.7499,157 88.2499,152 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="98.2499,157 88.2499,162 90.7499,157 88.2499,152 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="317.086" y="364.426" width="171.158" height="49.3481"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="317.086" y="364.426" width="171.158" height="49.3481"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="402.665" y="393">
+      <tspan x="402.665" y="393">Langkah selanjutnya</tspan>
+    </text>
+  </g>
+</svg>

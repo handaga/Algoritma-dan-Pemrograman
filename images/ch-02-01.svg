@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="6cm" height="11cm" viewBox="397 98 104 201" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="398.234" y="99.7568" width="101.941" height="39.0909"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="398.234" y="99.7568" width="101.941" height="39.0909"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="449.204" y="123.202">
+      <tspan x="449.204" y="123.202">langkah-1</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="400.156" y="178.822" width="98.0962" height="40.4916"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="400.156" y="178.822" width="98.0962" height="40.4916"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="449.204" y="202.967">
+      <tspan x="449.204" y="202.967">langkah-2</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="399.474" y="259.286" width="99.4596" height="38.9143"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="399.474" y="259.286" width="99.4596" height="38.9143"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="449.204" y="282.643">
+      <tspan x="449.204" y="282.643">langkah-3</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="449.204" y1="139.555" x2="449.204" y2="168.105"/>
+    <polygon style="fill: #000000" points="449.204,175.605 444.204,165.605 449.204,168.105 454.204,165.605 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="449.204,175.605 444.204,165.605 449.204,168.105 454.204,165.605 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="449.204" y1="220.319" x2="449.204" y2="248.582"/>
+    <polygon style="fill: #000000" points="449.204,256.082 444.204,246.082 449.204,248.582 454.204,246.082 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="449.204,256.082 444.204,246.082 449.204,248.582 454.204,246.082 "/>
+  </g>
+</svg>

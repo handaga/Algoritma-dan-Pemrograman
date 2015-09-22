@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="23cm" height="19cm" viewBox="25 28 446 374" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <polygon style="fill: #ffffff" points="251.999,105.743 364.512,162 251.999,218.257 139.486,162 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="251.999,105.743 364.512,162 251.999,218.257 139.486,162 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="251.999" y="157.9">
+      <tspan x="251.999" y="157.9">Apakah</tspan>
+      <tspan x="251.999" y="173.9">kondisi ini benar?</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="26.3" y="224" width="129.7" height="51"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="26.3" y="224" width="129.7" height="51"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="91.15" y="253.4">
+      <tspan x="91.15" y="253.4">Langkah -1</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="343.292" y="223.786" width="127" height="51"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="343.292" y="223.786" width="127" height="51"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="406.792" y="253.186">
+      <tspan x="406.792" y="253.186">Langkah-2</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="91.15,214.264 91.15,162 139.486,162 139.486,162 "/>
+    <polygon style="fill: #000000" points="91.15,221.764 86.15,211.764 91.15,214.264 96.15,211.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="91.15,221.764 86.15,211.764 91.15,214.264 96.15,211.764 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="406.792,214.05 406.792,162.366 364.512,162.366 364.512,162 "/>
+    <polygon style="fill: #000000" points="406.792,221.55 401.792,211.55 406.792,214.05 411.792,211.55 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="406.792,221.55 401.792,211.55 406.792,214.05 411.792,211.55 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="252.152" cy="344.193" rx="19.4422" ry="17.315"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="252.152" cy="344.193" rx="19.4422" ry="17.315"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="252.152" y="348.093">
+      <tspan x="252.152" y="348.093"></tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="281.33,344.193 406.792,344.193 406.792,274.786 "/>
+    <polygon style="fill: #000000" points="273.83,344.193 283.83,339.193 281.33,344.193 283.83,349.193 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="273.83,344.193 283.83,339.193 281.33,344.193 283.83,349.193 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="222.974,344.193 91.15,344.193 91.15,275 "/>
+    <polygon style="fill: #000000" points="230.474,344.193 220.474,349.193 222.974,344.193 220.474,339.193 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="230.474,344.193 220.474,349.193 222.974,344.193 220.474,339.193 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="252.152" y1="361.508" x2="251.886" y2="389.686"/>
+    <polygon style="fill: #000000" points="251.815,397.186 246.91,387.139 251.886,389.686 256.909,387.234 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="251.815,397.186 246.91,387.139 251.886,389.686 256.909,387.234 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="251.973" y1="96.0074" x2="251.794" y2="29.2532"/>
+    <polygon style="fill: #000000" points="251.993,103.507 246.966,93.5208 251.973,96.0074 256.966,93.494 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="251.993,103.507 246.966,93.5208 251.973,96.0074 256.966,93.494 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="107.174" y="155.365">
+    <tspan x="107.174" y="155.365">YA</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="371.27" y="153.531">
+    <tspan x="371.27" y="153.531">TIDAK</tspan>
+  </text>
+</svg>
