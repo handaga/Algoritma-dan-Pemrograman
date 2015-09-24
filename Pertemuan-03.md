@@ -115,11 +115,107 @@ Penyusunan algoritma dengan menggunakan pseudocode juga tidak ada standar yang b
 		masukan(panjang, lebar)
 		tampilkan( luas )
 
+10. Terdapat dua nilai logika yaitu, BENAR dan SALAH, nilai ini dihasilkan oleh perbandingan yang menggunakan tanda seperti  `<` (lebih kecil),  `<=` (lebih kecil atau sama dengan), `>` (lebih besar), `>=` (lebih besar atau sama dengan), `=` (sama dengan), `!=` (tidak sama dengan).  Selain itu, teradapat operator `DAN (&) `, `ATAU (|)`, dan `TIDAK (!)` yang dapat digunakan untuk membuat ekspresi yang menghasilkan nilai BENAR atau SALAH. Logika untuk operator DAN dan ATAU dapat dilihat pada tabel berikut: 
 
+	Tabel Operasi dengan DAN dan ATAU
 
+	| a     | b     | a DAN b  | a ATAU b |
+	| ----- | ----- | -------- | -------- |
+	| SALAH | SALAH | SALAH    | SALAH    |  
+	| BENAR | SALAH | SALAH    | BENAR    |  
+	| SALAH | BENAR | SALAH    | BENAR    |  
+	| BENAR | BENAR | BENAR    | BENAR    |  
 
+11.  Berikut adalah bentuk yang menyatakan model penulisan untuk menangani struktur seleksi (if-then), dalam contoh di bawah, _pernyataan-1_ hingga _pernyataan-2_ akan dijalankan hanya kalau kondisi bernilai BENAR. Jika kondisi bernilai SALAH, _pernyataan-a_ sampai _pernyataan-b_ yang akan dijalankan.
 
+		JIKA kondisi MAKA
+			pernyataan-1
+			…
+			pernyataan-2
+		SEBALIKNYA
+			pernyataan-a
+			…
+			pernyataan-b
+		AKHIR-JIKA
 
+12. Berkut ini adalah psedocode bentuk seleksi (if-then) dengan beberapa kemungkinan. Apabila nilai yang terletak di sebelah kanan label COCOK, sama dengan nilai di samping label DENGAN, maka pernyataan di bawah DENGAN sampai dengan ketemu label DENGAN berikutnya akan dijalankan, setelah itu eksekusi akan dilanjutkan ke label AKHIR-COCOK.
 
+		COCOK nilai
+			DENGAN nilai-01 MAKA
+				pernyataan-11
+				pernyataan-12
+			DENGAN nilai-02 MAKA
+				pernyataan-21
+				pernyataan-22
+			DENGAN nilai-03 MAKA
+				pernyataan-31
+				pernyataan-32
+			LAINNYA
+				pernyataan-n1
+				…
+				pernyataan-n2
+		AKHIR-COCOK
+		
+13. Berikut pseudocode bentuk perulangan (while-loop), dalam contoh di bawah pernyataan-1 hingga pernyataan-N akan dijalankan secara terus-menerus selama kondisi bernilai BENAR. 
 
+		ULANG SELAMA kondisi 
+			pernyataan-1
+			…
+			pernyataan-N
+		AKHIR-ULANG
+		
+14. Berikut pseudocode bentuk perulangan (do-loop), pernyataan-1 sampai dengan pernyataan-N akan dijalankan berulang selama kondisi bernilai BENAR. 
 
+		ULANG
+			pernyataan-1
+			…
+			pernyataan-N
+		SELAMA kondisi;
+	
+15. Berikut adalah pseudocode untuk bentuk perulangan yang lain (for-loop),  dalam contoh di bawah pernyataan-1 hingga pernyataan-2 akan dijalankan berulang mulai dari variabel bernilai 'awal' hingga variabel bernilai tidak lebih dari 'akhir'. Label LANGKAH menentukan penambahan terhadap nilai varibel berikutnya, label ini bersifat opsional (tidak wajib). Jika tidak ada label LANGKAH, maka nilai variabel akan bertambah dengan 1 di setiap pengulangan.
+
+		UNTUK  variabel=awal S/D akhir LANGKAH kenaikan
+			Pernyataan-1
+			..
+			Pernyataan-2
+		AKHIR-UNTUK
+
+	contoh:
+	
+		UNTUK bil=1 S/D 8
+			tampilkan(bil)
+		AKHIR-UNTUK
+	
+		UNTUK bil=1 S/D 8 STEP 3
+			tapilkan(bil)
+		AKHIR-UNTUK
+	
+16. Jika dalam algoritma terdapat proses (kumpulan pernyataan) yang akan sering di lakukan bebreapa kali, maka proses tersebut dapat dikelompokan menjadi sebuah prosedur atau fungsi tersendiri.  Sebuah prosedure atau fungsi dapat menghasilkan nilai tertentu sebagai hasil dari proses dalam prosedure atau fungsi.
+
+		PROSEDURE  namaProsedure(daftar-parameter)
+			pernyataan-1
+			…
+			pernyataan-2
+		AKHIR-PROSEDURE 
+	
+	atau 
+	
+		FUNGSI namaFungsi(daftar-parameter)
+			pernyataan-1
+			…
+			pernyataan-2
+		AKHIR-FUNGSI
+	
+	contoh sebuah FUNGSI/PROSEDURE untuk mencari nilai terbesar dalam sebuah variabel larik.
+	
+		FUNGSI maksimum(A,n)
+			//A adalah larik dan n adalah jumlah elemen larik
+			terbesar <- A[0]
+			UNTUK  i=1 S/D panjang(A)-1
+				JIKA terbesar < A[i] MAKA
+					terbesar <- A[i]
+				AKHIR-JIKA
+			AKHIR-UNTUK
+			NILAI BALIK terbesar
+		AKHIR-FUNGSI
+	
