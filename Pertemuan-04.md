@@ -103,7 +103,7 @@ daftar token:
 	)   // simbol
 	;   // simbol akhir sebuah pernyataan
 
-Semicolon (simbol titik-koma, ";" )
+### Semicolon (simbol titik-koma, ";" )
 
 Dalam bahasa C, simbol titik-koma digunakan sebagai TANDA AKHIR dari sebuah pernyataan. Jadi setiap pernyataan harus diakhiri dengan simbol SEMICOLON.
 
