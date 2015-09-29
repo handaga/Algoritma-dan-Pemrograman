@@ -76,3 +76,8 @@ Untuk melakukan kompilasi dengan menggunakan visual studio melalu perintah COMMA
 * Pengaturan (pemilihan) platform 32 bit dengan perintah ` C:\> vcvarsall x86 `
 * Kompilasi program bahasa C, ` C:\> cl test.c ` jika proses kompilasi berhasil akan dihasilkan dua buah file ` *.obj ` dan ` *.exe `
 * Untuk menjalakan program hasil kompilasi ketik nama file ` C:\> test.exe `
+
+## Note:
+
+Kompiler bahasa C, Visual Studio Express 2010 dapat di download di sini
+[Visual Studio 2010 Express, ISO  (694 MB)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0CCIQFjABahUKEwioxtu7kJvIAhUQco4KHY_rDQw&url=https%3A%2F%2Fgo.microsoft.com%2F%3Flinkid%3D9709969&usg=AFQjCNFe_9nMjDI9awG4mVO-aRP3FlxwtA&sig2=453kDuPVA0vR8qjp8aGvUQ&cad=rja)
