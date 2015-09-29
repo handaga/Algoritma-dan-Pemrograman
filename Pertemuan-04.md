@@ -87,3 +87,77 @@ Editor Text yang di sarankan:
 * [Notepad++](https://notepad-plus-plus.org)
 * [Sublime Text 2](http://www.sublimetext.com)
 
+## Dasar-dasar Syntax Bahasa C
+
+### Token
+
+Token adalah bagian terkecil dari sebuah program, dalam bahasa C, sebuah token dapat berupa keyword,  identifier, konstanta, literal, atau simbol. Sebagai contoh, pernyataan dalam bahasa C berikut ini terdiri atas 5 token.
+
+	printf("Hello, World! \n");
+
+daftar token:
+
+	printf // identifier
+	(   // simbol
+	"Hello, World! \n" //literal
+	)   // simbol
+	;   // simbol akhir sebuah pernyataan
+
+Semicolon (simbol titik-koma, ";" )
+
+Dalam bahasa C, simbol titik-koma digunakan sebagai TANDA AKHIR dari sebuah pernyataan. Jadi setiap pernyataan harus diakhiri dengan simbol SEMICOLON.
+
+Berikut contoh pernyataan dengan bahasa C:
+
+	printf("Hello, World! \n");
+	return 0;
+
+### Komentar (Comment) atau keterangan program
+
+Komentar dalam bahasa C serupa dengan penjelasan dari pernyataan/program. Komentar dapat ditambahkan pada program dengan cara menambahkan simbol   /* (awal) …..    */ (akhir). atau // (utk satu baris)
+
+### Identifier
+
+Identifier adalah NAMA yang digunakan untuk mengidentifikasi nama VARIABEL, FUNGSI, atau item lain yang dibuat/didefinisikan oleh USER.
+
+Identifier dapat berupa HURUF BESAR ( A .. Z) atau huruf KECIL (a..z), atau GARIS BAWAH ( underscore, '_ '), dan  ANGKA (0 … 9)
+
+	a..z,A..Z,0..9,_ 
+
+Dalam bahasa C huruf BESAR berbeda dengan huruf kecil, disebut CASE-SENSITIVE, variabel 'a' berbeda dengan variabel 'A'.  (upcase & lowercase)
+
+	int a;
+	float A;
+	
+	int A&;   //salah
+	int A#;  // tidak boleh 
+	int  A_2;    //ini boleh
+	int  A-2;    //TIDAK boleh
+
+### Keyword
+
+Keyword adalah nama/kata-kata yang TIDAK BOLEH digunakan oleh USER, untuk memberi nama VARIABLE atau FUNGSI. 
+
+Daftar Keyword:
+
+	auto, else, long, switch
+	break, enum, register, typedef
+	case, extern, return, union
+	char, float, short, unsigned
+	const, for, signed, viod
+	continue, goto, sizeof, volatile
+	default, if, static, while
+	do, int, struct, _Packed
+	double
+
+### Whitespace
+
+adalah simbol atau karakter yang tidak diterjemahkan oleh kompiler, terdiri atas,  SPASI, TAB, CARRIAGE-RETURN (tombol ENTER) ganti baris (line Feed)
+
+Kadang disebut karakter atau simbol yang TIDAK TAMPAK  di LAYAR.
+
+
+
+
+
+
