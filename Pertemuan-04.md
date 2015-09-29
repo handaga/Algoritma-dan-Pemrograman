@@ -115,6 +115,17 @@ Berikut contoh pernyataan dengan bahasa C:
 ### Komentar (Comment) atau keterangan program
 
 Komentar dalam bahasa C serupa dengan penjelasan dari pernyataan/program. Komentar dapat ditambahkan pada program dengan cara menambahkan simbol   /* (awal) …..    */ (akhir). atau // (utk satu baris)
+Contoh:
+
+	/*
+		Ini keterangan pada baris pertama 
+		sedangkan baris ini adalah keterangan pada baris kedua
+	*/
+
+atau 
+
+	// simbol DOUBLE-SLASH // digunakan untuk menambahkan SATU BARIS keterangan 
+
 
 ### Identifier
 
@@ -152,11 +163,19 @@ Daftar Keyword:
 
 ### Whitespace
 
-adalah simbol atau karakter yang tidak diterjemahkan oleh kompiler, terdiri atas,  SPASI, TAB, CARRIAGE-RETURN (tombol ENTER) ganti baris (line Feed)
+Whitespace adalah simbol atau karakter yang tidak diterjemahkan oleh kompiler, terdiri atas,  SPASI, TAB, CARRIAGE-RETURN (tombol ENTER) ganti baris (line Feed).  Kadang disebut sebagai karakter atau simbol yang TIDAK TAMPAK di LAYAR.
 
-Kadang disebut karakter atau simbol yang TIDAK TAMPAK  di LAYAR.
+contoh baris kode berikut menghasilkan output yang sama:
 
+	int A=0;
+	int A      =   0;
+	int A (TAB)(TAB) = (TAB) 0;
+	
+	int A
+	=
+	0;
 
+jadi dalam kode bahasa C, WHITESPACE berapapun jumlahnya akan di abaikan oleh kompiler, atau tidak mempengaruhi hasil.
 
 
 
