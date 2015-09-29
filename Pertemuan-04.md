@@ -75,4 +75,4 @@ Untuk melakukan kompilasi dengan menggunakan visual studio melalu perintah COMMA
 
 * Pengaturan (pemilihan) platform 32 bit dengan perintah ` C:\> vcvarsall x86 `
 * Kompilasi program bahasa C, ` C:\> cl test.c ` jika proses kompilasi berhasil akan dihasilkan dua buah file ` *.obj ` dan ` *.exe `
-* Untuk menjalakan program hasil kompilasi ketika nama file ` *.exe `
+* Untuk menjalakan program hasil kompilasi ketik nama file ` C:\> test.exe `
