@@ -1,7 +1,7 @@
 /*
 	program untuk menyelesaikan akar persamaan kwadrat
 	dibuat oleh : fulan
-	tanggal  : 29-09-2015
+	tanggal  	: 29-09-2015
 */
 #include <stdio.h>
 #include <math.h>
