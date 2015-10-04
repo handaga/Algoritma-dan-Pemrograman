@@ -301,13 +301,13 @@ Tabel berikut ini menunjukan semua simbol operator arithmetic yang terdapat dala
 
 Operator | Keterangan | Contoh
 --- | --- | ---
-**+** | Menambahkan antara dua operan (variabel atau literal) | `A + B` menghasilkan `30`
-**-** | Mengurangi operan pertama dengan operan kedua | `A - B` menghasilkan `-10`
+` + `  | Menambahkan antara dua operan (variabel atau literal) | `A + B` menghasilkan `30`
+` - ` | Mengurangi operan pertama dengan operan kedua | `A - B` menghasilkan `-10`
 ` * `| Perkalian antara dua operan | `A * B` menghasilkan `200`
-**/** | Membagi sebuah (operan sebelum simbol `/`) atau numerator dengan de-numerator (operan setelah simbol `/`) | `B / A` menghasilkan `2`
-**%** | Operator modulus, menghasilkan sisa hasil bagi dua operan  | `B % A`  menghasilkan `0`
-**++** | Opeartor increments menambah sebuah operan dengan angka satu | `A++` menghasilkan ` 11 `
-**--** | Operator decrement mengurangi sebuah operan dengan angka 1 | ` A-- ` menghasilkan ` 9 `
+` / ` | Membagi sebuah (operan sebelum simbol `/`) atau numerator dengan de-numerator (operan setelah simbol `/`) | `B / A` menghasilkan `2`
+` % ` | Operator modulus, menghasilkan sisa hasil bagi dua operan  | `B % A`  menghasilkan `0`
+` ++ ` | Opeartor increments menambah sebuah operan dengan angka satu | `A++` menghasilkan ` 11 `
+` -- ` | Operator decrement mengurangi sebuah operan dengan angka 1 | ` A-- ` menghasilkan ` 9 `
 
 Berikut adalah contoh kode program untuk membantu memahami semua operator arithmetic yang tersedia dalam bahasa C.
 
@@ -352,12 +352,12 @@ Tabel berikut ini berisi daftar semua operator Relational yang terdapat dalam ba
 
 Operator | Keterangan | Contoh
 --- | --- | --- 
-**==** | Membandingkan pakah kedua operan (Variabel atau literal) memiliki nilai yang sama  | `(A == B)` hasilnya ` false `.
-**!=** | Membandingkan apakah nilai kedua operan TIDAK SAMA | `(A != B)` hasilnya adalah ` true `.
-**>** | Membandingkan apakah operan kiri memiliki nilai lebih besar daripada operan kanan |  ` (A > B) ` hasilnya ` true `.
-**<** | Membandingkan apakah operan sebelah kiri memiliki nilai lebih kecil dibanding operan sebelah kanan |  ` (A < B) ` hasilnya adalah ` true `. 
-**>=** | Membandingkan apakah operan kiri LEBIH BESAR atau SAMA DENGAN operan kanan | ` (A >= B) ` hasilnya ` false `.
-**<=** | Membandignkan apakah operan kiri LEBIH KECIL atau SAMA DENGAN dibanding operan kanan | ` (A <= B) ` hasilnya adalah `true`.
+` == ` | Membandingkan pakah kedua operan (Variabel atau literal) memiliki nilai yang sama  | `(A == B)` hasilnya ` false `.
+` != ` | Membandingkan apakah nilai kedua operan TIDAK SAMA | `(A != B)` hasilnya adalah ` true `.
+` > ` | Membandingkan apakah operan kiri memiliki nilai lebih besar daripada operan kanan |  ` (A > B) ` hasilnya ` true `.
+` < ` | Membandingkan apakah operan sebelah kiri memiliki nilai lebih kecil dibanding operan sebelah kanan |  ` (A < B) ` hasilnya adalah ` true `. 
+` >= ` | Membandingkan apakah operan kiri LEBIH BESAR atau SAMA DENGAN operan kanan | ` (A >= B) ` hasilnya ` false `.
+` <= ` | Membandignkan apakah operan kiri LEBIH KECIL atau SAMA DENGAN dibanding operan kanan | ` (A <= B) ` hasilnya adalah `true`.
 
 Di bawah ini diberikan contoh program menggunakan operator relational (perbandingan) dan hasilnya
 
@@ -419,9 +419,9 @@ Berikut ini adalah tabel yang berisi daftar semua operator logical yang terdapat
 
 Operator | Keterangan | Contoh
 --- | --- | --- 
-**&&** | Memanggil operator AND (&). Jika kedua operan tidak sama dengan NOL akan menghasilkan nilai ` true ` | ` (A && B) ` menghasilkan ` false `.
-**`||`** | Memanggil operator OR ( `|` ). Jika ada salah satu operan tidak sama dengan nol akan menghasilkan ` true `  |  ` (A || B) ` hasilnya ` true `. 
-**!** | Memanggil operator NOT. Hasilnya merupakan kebalikan dari nilai binary yang terdapat di belakang operator | ` !(A && B) ` menghasilkan ` false `.
+` && ` | Memanggil operator AND (&). Jika kedua operan tidak sama dengan NOL akan menghasilkan nilai ` true ` | ` (A && B) ` menghasilkan ` false `.
+` || ` | Memanggil operator OR ( `|` ). Jika ada salah satu operan tidak sama dengan nol akan menghasilkan ` true `  |  ` (A || B) ` hasilnya ` true `. 
+` ! ` | Memanggil operator NOT. Hasilnya merupakan kebalikan dari nilai binary yang terdapat di belakang operator | ` !(A && B) ` menghasilkan ` false `.
 
 Berikut ini adalah contoh kode program dan hasilnya:
 
@@ -494,12 +494,12 @@ Tabel berikut ini adalah daftar semua operator Bitwise dalam bahasa C. Pada kolo
 
 Operator | Keterangan | Contoh 
 --- | --- | ---
-**&** | melakukan operasi AND | ` (A & B) ` menghasilkan ` 12 ` dalam biner ` 0000 1100 `
-**`|`** | Melakukan operasi OR. | ` (A|B) ` menghasilkan ` 61 ` dalam biner ` 0011 1101 `
-**^** | Melkaukan operasi XOR  | ` (A ^ B) ` menghasilkan ` 49 ` dalam biner ` 0011 0001 `
-**~** | Melkaukan operasi NOT  | ` (~A ) ` menghasilkan ` -61 ` dalam biner ` 1100 0011 `.
-**<<** | Melakukan operasi GESER / SHIFT ke kiri sebanyak angka yang ditunjukan oleh operan kanan  | ` A << 2 ` menghasilkan ` 240 ` dalam biner ` 1111 0000 `
-**>>** | Melakukan operasi GESER ke kanan sebanyak angka yang ditunjukan oleh operan kanan |  ` A >> 2 ` menghasilkan ` 15 ` dalam biner ` 0000 1111 `
+` & ` | melakukan operasi AND | ` (A & B) ` menghasilkan ` 12 ` dalam biner ` 0000 1100 `
+` | ` | Melakukan operasi OR. | ` (A|B) ` menghasilkan ` 61 ` dalam biner ` 0011 1101 `
+` ^ ` | Melkaukan operasi XOR  | ` (A ^ B) ` menghasilkan ` 49 ` dalam biner ` 0011 0001 `
+` ~ ` | Melkaukan operasi NOT  | ` (~A ) ` menghasilkan ` -61 ` dalam biner ` 1100 0011 `.
+` << ` | Melakukan operasi GESER / SHIFT ke kiri sebanyak angka yang ditunjukan oleh operan kanan  | ` A << 2 ` menghasilkan ` 240 ` dalam biner ` 1111 0000 `
+` >> ` | Melakukan operasi GESER ke kanan sebanyak angka yang ditunjukan oleh operan kanan |  ` A >> 2 ` menghasilkan ` 15 ` dalam biner ` 0000 1111 `
 
 Dibawah oini adalah contoh program dan hasilnya:
 
