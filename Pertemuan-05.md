@@ -1,4 +1,4 @@
-# Tipe Data
+# Tipe Data, Variabel, dan Konstanta
 
 Pada dasarnya hanya tipe data angka BOOLEAN ('0' dan '1') yang dapat di proses atau dikenali oleh komputer. Namun demikian dalam Bahasa C telah dikembangakan beberapa jenis tipe data lain yang dapat di proses dalam program. Tipe data tersebut di bagi dalam tiga kelompok sebagai berikut:
 
