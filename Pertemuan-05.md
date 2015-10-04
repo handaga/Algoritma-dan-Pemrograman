@@ -540,17 +540,17 @@ Tabel berikut berisi semua daftar operator assignment dalam bahasa C
 
 Operator | Keterangan | Example
 --- | --- | --- 
-**=** | Operator assigment sederhana, memasukan nilai ke variabel yang terletak di sebelah kiri operator | ` C = A + B ` menghasilkan nilai `A + B` disimpan dalam ` C `.
-**+=** | Menambahkan nilai operan kiri (variabel) dengan operan kanan, dan hasilnya disimpan pada operan kiri.  | ` C += A ` sama dengan operasi ` C = C + A `.
-**-=** | Mengurangi operan kiri dengan operan kanan, hasilknya diismpan dalam operan kiri | ` C -= A ` serupa dengan oeprasi ` C = C - A `.
+` = ` | Operator assigment sederhana, memasukan nilai ke variabel yang terletak di sebelah kiri operator | ` C = A + B ` menghasilkan nilai `A + B` disimpan dalam ` C `.
+` += ` | Menambahkan nilai operan kiri (variabel) dengan operan kanan, dan hasilnya disimpan pada operan kiri.  | ` C += A ` sama dengan operasi ` C = C + A `.
+` -= ` | Mengurangi operan kiri dengan operan kanan, hasilknya diismpan dalam operan kiri | ` C -= A ` serupa dengan oeprasi ` C = C - A `.
 ` *= ` | Mengalikan operan kiri dengan operan kanan, hasilnya disimpan dalam operan kiri,  | ` C *= A ` seruap dengan operasi ` C = C * A `
-**/=** | Membagi operan kiri dengan operan kanan, hasilnya disimpan dalam operan kiri | ` C /= A ` serupa dengan operasi ` C = C / A `.
-**%=** | Melakukan operasi modulus antara operan kiri dan operan kanan, hasilnya disimpan dalam operan kiri.  | ` C %= A ` serupa dengan operasi ` C = C % A `
-**<<=** | Melakukan operasi GESER bit terhadap operan kiri sebanyak operan kanan, hasilnya disimpan dalam operan kiri  | ` C <<= 2 ` serupa dengan operasi ` C = C << 2 ` 
-**>>=** | Melakukan operasi GESER kanan sebanyak operan kanan pada operan kiri, hasilnya disimpan dalam operan kiri,  | ` C >>= 2 ` serupa dengan operasi ` C = C >> 2 `
-**&=** | Melakukan operasi AND hasilnya disimpan di operan kiri  | ` C &= 2 ` serupa dengan operasi ` C = C & 2 `
-**^=** | MElakukan operasi XOR hasilnya disimpan dalam operan kiri  | ` C ^= 2 ` seruap dengan operasi ` C = C ^ 2 '
-**`|=`** | Melakukan operasi OR hasilnya disimpan dalam operan kiri. | ` C |= 2 ` serupa dengan ` C = C | 2 `
+` /= ` | Membagi operan kiri dengan operan kanan, hasilnya disimpan dalam operan kiri | ` C /= A ` serupa dengan operasi ` C = C / A `.
+` %= ` | Melakukan operasi modulus antara operan kiri dan operan kanan, hasilnya disimpan dalam operan kiri.  | ` C %= A ` serupa dengan operasi ` C = C % A `
+` <<= ` | Melakukan operasi GESER bit terhadap operan kiri sebanyak operan kanan, hasilnya disimpan dalam operan kiri  | ` C <<= 2 ` serupa dengan operasi ` C = C << 2 ` 
+` >>= ` | Melakukan operasi GESER kanan sebanyak operan kanan pada operan kiri, hasilnya disimpan dalam operan kiri,  | ` C >>= 2 ` serupa dengan operasi ` C = C >> 2 `
+` &= ` | Melakukan operasi AND hasilnya disimpan di operan kiri  | ` C &= 2 ` serupa dengan operasi ` C = C & 2 `
+` ^= ` | MElakukan operasi XOR hasilnya disimpan dalam operan kiri  | ` C ^= 2 ` seruap dengan operasi ` C = C ^ 2 '
+` |= ` | Melakukan operasi OR hasilnya disimpan dalam operan kiri. | ` C |= 2 ` serupa dengan ` C = C | 2 `
 
 Note: dalam baris terakhir pada tabel di atas ... operasi OR seharusnya digantikan dengan simbol ` | `
 
@@ -618,10 +618,10 @@ Terdapat beberapa operator spesial dalam bahasa C, antara lain adalah ` sizeof `
 
 Operator | Keterangan | Contoh 
 --- | --- | --- 
-**sizeof()** | Menghasilkan jumlah byte dalam memori untuk menyimpan variabel | ` sizeof(a) `, jika variabel ` a ` adalah integer, maka akan dihasilkan angka ` 4 `.
-**&** | Mengehasilkan alamt memori sebuah variabel. | ` &a; ` akan menghasilkan alamat memori variabel ' a a dalam memori 
-`* ` | Poiter pada sebuah variabel | ` *a;  ` menghasilkan sebuah variabel pointer a yang menunjuk pada sebuah tipe data tertentu, tipe data sesuai dengan dekalrasi variabel awal.
-**? :** | Ekspresi kondisional  | `(ekspresi)?X=1:X=3; Jika ekspresi benar maka ` X = 1 `, sebaliknya ` X = 3 `.
+` sizeof() ` | Menghasilkan jumlah byte dalam memori untuk menyimpan variabel | ` sizeof(a) `, jika variabel ` a ` adalah integer, maka akan dihasilkan angka ` 4 `.
+` & ` | Mengehasilkan alamt memori sebuah variabel. | ` &a; ` akan menghasilkan alamat memori variabel ' a a dalam memori 
+` * ` | Poiter pada sebuah variabel | ` *a;  ` menghasilkan sebuah variabel pointer a yang menunjuk pada sebuah tipe data tertentu, tipe data sesuai dengan dekalrasi variabel awal.
+` ? : ` | Ekspresi kondisional  | `(ekspresi)?X=1:X=3; Jika ekspresi benar maka ` X = 1 `, sebaliknya ` X = 3 `.
 
 Di bawah ini diberikan contoh program penggunaan operator spesial dan hasilnya:
 
