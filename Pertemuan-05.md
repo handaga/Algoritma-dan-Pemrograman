@@ -473,7 +473,7 @@ Bitwise operator digunakan dalam bilangan biner dan beroperasi secara bit (angka
 
 Tabel kebenaran operasi logika
 
-p | q | p & q | p OR q | p ^ q
+p | q |  p & q | p OR q | p ^ q 
 --- | --- | --- | --- | ---
 0 | 0 | 0 | 0 | 0
 0 | 1 | 0 | 1 | 1
@@ -619,8 +619,8 @@ Terdapat beberapa operator spesial dalam bahasa C, antara lain adalah ` sizeof `
 Operator | Keterangan | Contoh 
 --- | --- | --- 
 ` sizeof() ` | Menghasilkan jumlah byte dalam memori untuk menyimpan variabel | ` sizeof(a) `, jika variabel ` a ` adalah integer, maka akan dihasilkan angka ` 4 `.
-` & ` | Mengehasilkan alamt memori sebuah variabel. | ` &a; ` akan menghasilkan alamat memori variabel ' a a dalam memori 
-` * ` | Poiter pada sebuah variabel | ` *a;  ` menghasilkan sebuah variabel pointer a yang menunjuk pada sebuah tipe data tertentu, tipe data sesuai dengan dekalrasi variabel awal.
+` & ` | Mengehasilkan alamt memori sebuah variabel. | ` &a; ` akan menghasilkan alamat memori variabel ` a `  dalam memori 
+` * ` | Poiter pada sebuah variabel | ` *a;  ` menghasilkan sebuah variabel pointer ` a ` yang menunjuk pada sebuah tipe data tertentu, tipe data sesuai dengan dekalrasi variabel awal.
 ` ? : ` | Ekspresi kondisional  | `(ekspresi)?X=1:X=3; ` Jika ekspresi benar maka ` X = 1 `, sebaliknya ` X = 3 `.
 
 Di bawah ini diberikan contoh program penggunaan operator spesial dan hasilnya:
@@ -668,22 +668,22 @@ Sebagai contoh statement berikut ` x=6+3*2; ` akan menghasilkan nilai ` 12 `, bu
 
 Berikut ini adalah daftar prioritas operator dalam bahasa C
 
-Kategori | Operator | Associativity 
+Kategori | Operator | Urutan proses 
 --- | --- | ---
-Postfix | ` () [] -> . ++ -- ` | Left to right 
-Unary | ` + - ! ~ ++ - - (type)* & sizeof ` | Right to left
-Multiplicative | ` * / %  ` | Left to right 
-Additive | ` + - ` | Left to right 
-Shift | ` << >> ` | Left to right 
-Relational | ` < <= > >= ` | Left to right 
-Equality | ` == != ` | Left to right 
-Bitwise AND | ` & ` | Left to right 
-Bitwise XOR | ` ^ ` | Left to right 
-Bitwise OR | ` | ` | Left to right 
-Logical AND | ` && ` | Left to right 
-Logical OR | ` ||  ` | Left to right 
-Conditional | ` ?: ` | Right to left 
-Assignment | ` = += -= *= /= %=>>= <<= &= ^= |= ` | Right to left 
+Postfix | ` () [] -> . ++ -- ` | dari kiri ke kanan
+Unary | ` + - ! ~ ++ - - (type)* & sizeof ` | dari kanan ke kiri 
+Multiplicative | ` * / %  ` | dari kiri ke kanan 
+Additive | ` + - ` | dari kiri ke kanan
+Shift | ` << >> ` | dari kiri ke kanan
+Relational | ` < <= > >= ` | dari kiri ke kanan 
+Equality | ` == != ` | dari kiri ke kanan
+Bitwise AND | ` & ` | dari kiri ke kanan
+Bitwise XOR | ` ^ ` | dari kiri ke kanan
+Bitwise OR | ` | ` | dari kiri ke kanan
+Logical AND | ` && ` | dari kiri ke kanan
+Logical OR | ` ||  ` | dari kiri ke kanan
+Conditional | ` ?: ` | dari kanan ke kiri
+Assignment | ` = += -= *= /= %=>>= <<= &= ^= |= ` | dari kanan ke kiri 
 Comma | ` , ` |	Left to right 
 
 Di bawah ini adalah contoh program untuk menunjukkan beberapa kasus prioritas operator dalam bahasa C, dan hasilnya:
