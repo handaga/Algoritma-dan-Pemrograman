@@ -621,7 +621,7 @@ Operator | Keterangan | Contoh
 ` sizeof() ` | Menghasilkan jumlah byte dalam memori untuk menyimpan variabel | ` sizeof(a) `, jika variabel ` a ` adalah integer, maka akan dihasilkan angka ` 4 `.
 ` & ` | Mengehasilkan alamt memori sebuah variabel. | ` &a; ` akan menghasilkan alamat memori variabel ' a a dalam memori 
 ` * ` | Poiter pada sebuah variabel | ` *a;  ` menghasilkan sebuah variabel pointer a yang menunjuk pada sebuah tipe data tertentu, tipe data sesuai dengan dekalrasi variabel awal.
-` ? : ` | Ekspresi kondisional  | `(ekspresi)?X=1:X=3; Jika ekspresi benar maka ` X = 1 `, sebaliknya ` X = 3 `.
+` ? : ` | Ekspresi kondisional  | `(ekspresi)?X=1:X=3; ` Jika ekspresi benar maka ` X = 1 `, sebaliknya ` X = 3 `.
 
 Di bawah ini diberikan contoh program penggunaan operator spesial dan hasilnya:
 
