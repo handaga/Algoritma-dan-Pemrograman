@@ -269,7 +269,7 @@ Contoh:
 	}
 	
 
-## The ? : Operator:
+## Operaor ` ? : ` 
 
 Operator  ?: dapat digunakan untuk menggantikan statement if-else, dengan struktur sebagai berikut: 
 
@@ -277,4 +277,6 @@ Operator  ?: dapat digunakan untuk menggantikan statement if-else, dengan strukt
 
 Dimana exp1, exp2, dan exp3 adalah sebuah espresi. Pertamakali exp1  akan dievaluasi jika menghasikan nilai TRUE maka exp2 akan dieksekusi, sebaliknya jika exp1 menghasilkan nilai FALSE maka exp3 yang akan di eksekusi.
 
+Contoh:
 
+	x==12 ? printf("variabel x=12") : printf(variabel x TIDAK SAMA dengan 12");
