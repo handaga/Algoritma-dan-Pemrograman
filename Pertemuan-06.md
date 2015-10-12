@@ -269,7 +269,7 @@ Contoh:
 	}
 	
 
-## Operaor ` ? : ` 
+## Operator ` ? : ` 
 
 Operator  ?: dapat digunakan untuk menggantikan statement if-else, dengan struktur sebagai berikut: 
 
