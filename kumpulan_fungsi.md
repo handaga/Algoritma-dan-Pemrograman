@@ -13,3 +13,4 @@ nama fungsi |  keterangan
 
 ## Matematika
 
+maaf bagian ini ... sedang dipersiapkan
