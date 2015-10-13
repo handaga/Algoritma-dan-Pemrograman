@@ -49,8 +49,8 @@ void hitung_3gelang() {
 	
 	N = (G1*10 + G2) * pow(10,G3);
 	
-	printf("\nG1=%d , G2=%d, G3=%d \n", G1,G2,G3 );
-	printf("\nNilai resistor R = %d ", N );
+	// printf("\nG1=%d , G2=%d, G3=%d \n", G1,G2,G3 );
+	printf("\nNilai resistor R = %d ohm", N );
 	
 }
 
@@ -112,8 +112,8 @@ void hitung_4gelang() {
 	
 	N = (G1*10 + G2) * pow(10,G3);
 	
-	printf("\nG1=%d , G2=%d, G3=%d G4=%d \n", G1,G2,G3, G4 );
-	printf("\nNilai resistor R = %d ", N );
+	// printf("\nG1=%d , G2=%d, G3=%d G4=%d \n", G1,G2,G3, G4 );
+	printf("\nNilai resistor R = %d ohm", N );
 	printf("\nNilai Toleransi = %d %c", G4, PERSEN );
 	
 	
