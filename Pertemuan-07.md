@@ -56,5 +56,25 @@ Perulangan tanpa akhir (forever) terjadi jika kondisi tidak pernah terpenuhi ata
     	return 0;
     }
 
-
+Jika setelah keyword ` for ` tidak ada kondisi (ekspresi), ` for ( ; ; ) ` maka akan dianggap sebagai  ` TRUE `
  
+## while loop
+
+Pengulangan dengan ` while `, perintah akan dieksekusi selama kondisi terpenuhi (menghasilkan nilai true)
+
+syntax:
+
+    while(condition)
+    {
+       statement(s);
+    }
+
+statemen dapat berupa satu perintah atau satu blok ` { ... } ` pernintah 
+diagram alir:
+
+![while loop](https://cdn.rawgit.com/handaga/Algoritma-dan-Pemrograman/master/images/ch-07-02.svg)
+> Gambar-7.2 DIagram alir while loop
+
+
+
+
