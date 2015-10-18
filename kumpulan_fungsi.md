@@ -11,6 +11,24 @@ nama fungsi |  keterangan
 ` int puts(const char *s) ` | mencetak string di layar. Contoh  ` char s[10] = "Ini Teks"; puts(s); `
 ` int printf(const char *format, ...) ` | mencetak data di layar sesuai format. Contoh ` int x=100; printf("Jarak %d meter", x); `
 
+
+## String  (string.h)
+
+nama fungsi / variabel | Keterangan 
+--- | ---
+` size_t ` | data dengan tipe ` unsigned int ` hasil dari memanggil keyword ` sizeof( ) `
+` NULL ` | konstanta nilai pointer null
+` void *memchr(const void *str, int c, size_t n) ` | mencari lokasi karakter ` c ` dalam ` str `, dengan ukuran ` n `
+` int strcmp(const char *str1, const char *str2) ` | membandingkan dua buah string ` str1 ` dan ` str1 `, jika sama akan dikembalikan nilai 0
+` char *strcpy(char *dest, const char *src) ` | menyalin string dari ` src ` ke ` dest `
+
+
+
 ## Matematika
 
-maaf bagian ini ... sedang dipersiapkan
+nama fungsi / variabel | Keterangan 
+--- | ---
+` double pow(double x, double y) ` | untuk menghitung x pangkat y
+` double sqrt(double x) ` | untuk menghitung akar kwadrat
+` double exp(double x) ` | untuk menghitung bilang e pangkat x, e = 2,718282
+`  double cbrt  (double x) ` | untuk menghitung akar pangkat tiga dari x, note: hanya berlaku pada versi kompiler c terbaru
