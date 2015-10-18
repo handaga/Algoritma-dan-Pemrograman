@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="17cm" height="20cm" viewBox="26 36 322 387" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: #000000" cx="171.068" cy="45.6673" rx="8.18984" ry="7.92234"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="171.068" cy="45.6673" rx="8.18984" ry="7.92234"/>
+    <text font-size="1.59998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="171.068" y="46.1673">
+      <tspan x="171.068" y="46.1673"></tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="171.068,216.602 224.637,260.814 171.068,305.026 117.5,260.814 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="171.068,216.602 224.637,260.814 171.068,305.026 117.5,260.814 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="171.068" y="264.714">
+      <tspan x="171.068" y="264.714">kondisi?</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="171.068" y1="163.691" x2="171.068" y2="205.866"/>
+    <polygon style="fill: #000000" points="171.068,213.366 166.068,203.366 171.068,205.866 176.068,203.366 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="171.068,213.366 166.068,203.366 171.068,205.866 176.068,203.366 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="72.6496" y="249.996">
+    <tspan x="72.6496" y="249.996">YA</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="180.916" y="359.244">
+    <tspan x="180.916" y="359.244">TIDAK</tspan>
+  </text>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="116.5,260.814 28,260.814 28,144.691 86.5822,144.691 "/>
+    <polygon style="fill: #000000" points="94.0822,144.691 84.0822,149.691 86.5822,144.691 84.0822,139.691 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="94.0822,144.691 84.0822,149.691 86.5822,144.691 84.0822,139.691 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="171.068" cy="411.908" rx="10.9283" ry="10.7013"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="171.068" cy="411.908" rx="10.9283" ry="10.7013"/>
+    <text font-size="1.59998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="171.068" y="412.408">
+      <tspan x="171.068" y="412.408"></tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="171.068" cy="412.232" rx="6.87569" ry="7.13505"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="171.068" cy="412.232" rx="6.87569" ry="7.13505"/>
+    <text font-size="1.59998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="171.068" y="412.732">
+      <tspan x="171.068" y="412.732"></tspan>
+    </text>
+  </g>
+  <text font-size="11.2889" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="236.506" y="181.448">
+    <tspan x="236.506" y="181.448">do {</tspan>
+    <tspan x="236.506" y="195.559">    perintah untuk</tspan>
+    <tspan x="236.506" y="209.67">    kondisi TRUE;</tspan>
+    <tspan x="236.506" y="223.781">} while (kondisi)</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="96.3183" y="125.691" width="149.5" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="96.3183" y="125.691" width="149.5" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="171.068" y="148.591">
+      <tspan x="171.068" y="148.591">Blok Perintah</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="171.068" y1="54.5859" x2="171.068" y2="115.955"/>
+    <polygon style="fill: #000000" points="171.068,123.455 166.068,113.455 171.068,115.955 176.068,113.455 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="171.068,123.455 166.068,113.455 171.068,115.955 176.068,113.455 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="171.068" y1="306.026" x2="171.068" y2="391.471"/>
+    <polygon style="fill: #000000" points="171.068,398.971 166.068,388.971 171.068,391.471 176.068,388.971 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="171.068,398.971 166.068,388.971 171.068,391.471 176.068,388.971 "/>
+  </g>
+</svg>

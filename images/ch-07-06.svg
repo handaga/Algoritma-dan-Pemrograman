@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="18cm" height="16cm" viewBox="37 105 344 319" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: #000000" cx="170.699" cy="114.293" rx="8.18984" ry="7.92234"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="170.699" cy="114.293" rx="8.18984" ry="7.92234"/>
+    <text font-size="1.59998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="170.699" y="114.793">
+      <tspan x="170.699" y="114.793"></tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="170.699" cy="411.908" rx="10.9283" ry="10.7013"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="170.699" cy="411.908" rx="10.9283" ry="10.7013"/>
+    <text font-size="1.59998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="170.699" y="412.408">
+      <tspan x="170.699" y="412.408"></tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #000000" cx="170.699" cy="411.98" rx="6.87569" ry="7.13505"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="170.699" cy="411.98" rx="6.87569" ry="7.13505"/>
+    <text font-size="1.59998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="170.699" y="412.48">
+      <tspan x="170.699" y="412.48"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="95.9495" y="174.933" width="149.5" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="95.9495" y="174.933" width="149.5" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="170.699" y="197.833">
+      <tspan x="170.699" y="197.833">Perintah 1</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="170.699" y1="123.206" x2="170.699" y2="165.196"/>
+    <polygon style="fill: #000000" points="170.699,172.696 165.699,162.696 170.699,165.196 175.699,162.696 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="170.699,172.696 165.699,162.696 170.699,165.196 175.699,162.696 "/>
+  </g>
+  <g>
+    <rect style="fill: #ff0000" x="286.273" y="237.447" width="93.598" height="54"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ff0000" x="286.273" y="237.447" width="93.598" height="54"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="333.072" y="260.347">
+      <tspan x="333.072" y="260.347">go to </tspan>
+      <tspan x="333.072" y="276.347">label 3</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="245.449,193.933 245.449,194.054 333.072,194.054 333.072,227.711 "/>
+    <polygon style="fill: #000000" points="333.072,235.211 328.072,225.211 333.072,227.711 338.072,225.211 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="333.072,235.211 328.072,225.211 333.072,227.711 338.072,225.211 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="95.9495" y="237.434" width="149.5" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="95.9495" y="237.434" width="149.5" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="170.699" y="260.334">
+      <tspan x="170.699" y="260.334">Perintah 2</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="95.9495" y="299.935" width="149.5" height="38"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="95.9495" y="299.935" width="149.5" height="38"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="170.699" y="322.835">
+      <tspan x="170.699" y="322.835">Perintah 3</tspan>
+    </text>
+  </g>
+  <text font-size="12.8" style="fill: #0000ff;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="37.1402" y="323.428">
+    <tspan x="37.1402" y="323.428">label-3</tspan>
+  </text>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="333.072,291.447 333.072,318.935 255.186,318.935 "/>
+    <polygon style="fill: #000000" points="247.686,318.935 257.686,313.935 255.186,318.935 257.686,323.935 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="247.686,318.935 257.686,313.935 255.186,318.935 257.686,323.935 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="170.699" y1="213.92" x2="170.699" y2="227.697"/>
+    <polygon style="fill: #000000" points="170.699,235.197 165.699,225.197 170.699,227.697 175.699,225.197 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="170.699,235.197 165.699,225.197 170.699,227.697 175.699,225.197 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="170.699" y1="276.421" x2="170.699" y2="290.198"/>
+    <polygon style="fill: #000000" points="170.699,297.698 165.699,287.698 170.699,290.198 175.699,287.698 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="170.699,297.698 165.699,287.698 170.699,290.198 175.699,287.698 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="170.699" y1="337.935" x2="170.699" y2="391.471"/>
+    <polygon style="fill: #000000" points="170.699,398.971 165.699,388.971 170.699,391.471 175.699,388.971 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="170.699,398.971 165.699,388.971 170.699,391.471 175.699,388.971 "/>
+  </g>
+</svg>
