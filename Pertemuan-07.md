@@ -1,3 +1,93 @@
+# Standar Input/Output ( I/O )
+
+## input keyboard berupa CHAR (satu huruf) 
+
+Fungsi:
+
+	getchar();   //input satu karakter dari keyboard
+	puchar();
+
+Contoh:
+
+	#include <stdio.h>
+	int main( )
+	{
+	   int c;
+	   printf( "Enter a value :");
+	   c = getchar( );
+	   
+	   printf( "\nYou entered: ");
+	   putchar( c );
+	   return 0;
+	}
+
+Output:
+
+	Enter a value : this is test
+	You entered: t
+
+
+## Input berupa teks / string /beberapa huruf(alphanumerik) /array of char
+
+Fungsi:
+
+	gets();
+	puts();
+
+Contoh:
+
+Contoh:
+
+	#include <stdio.h>
+	int main( )
+	{
+	   char str[100];
+	   
+	   printf( "Enter a value :");
+	   gets( str );
+	   
+	   printf( "\nYou entered: ");
+	   puts( str );
+	   
+	   return 0;
+	}
+
+
+Output:
+
+	Enter a value : this is test
+	You entered: this is test
+
+## Input dengan format (angka atau teks)
+
+Fungsi:
+	
+	scanf() dan 
+	printf()
+
+Contoh:
+
+	#include <stdio.h>
+	int main( )
+	{
+	   char str[100];
+	   int i;
+	   
+	   printf( "Enter a value :");
+	   scanf("%s %d", str, &i);
+	   
+	   printf( "\nYou entered: %s %d ", str, i);
+	   return 0;
+	}
+
+
+Output:
+
+	Enter a value : seven 7
+	You entered: seven 7
+
+
+
 # Perintah Pengulangan (Loop statement)
 
 Dalam sebuah program sering diperlukan untuk menjalankan perintah secara berulang, untuk jumlah pengulangan yang sudah diketahui dapat menggunkan jenis ` for..loop `, untuk pengulangan yang belum jelas jumlah perulangannya dapat digunakan ` while..loop ` atau ` do ..while loop `.
