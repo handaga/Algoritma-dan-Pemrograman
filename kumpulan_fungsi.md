@@ -17,11 +17,10 @@ nama fungsi |  keterangan
 nama fungsi / variabel | Keterangan 
 --- | ---
 ` size_t ` | data dengan tipe ` unsigned int ` hasil dari memanggil keyword ` sizeof( ) `
-` NULL ` | konstanta nilai pointer null
-` void *memchr(const void *str, int c, size_t n) ` | mencari lokasi karakter ` c ` dalam ` str `, dengan ukuran ` n `
 ` int strcmp(const char *str1, const char *str2) ` | membandingkan dua buah string ` str1 ` dan ` str1 `, jika sama akan dikembalikan nilai 0
 ` char *strcpy(char *dest, const char *src) ` | menyalin string dari ` src ` ke ` dest `
-
+` size_t strlen(const char *str) `  | menghitung jumlah karakter dalam string ` str `, ` size_t ` adalah tipe data yang sama dengan ` unsigned int `
+` void *memchr(const void *str, int c, size_t n) ` | mencari lokasi karakter ` c ` dalam ` str `, dengan ukuran ` n `
 
 
 ## Matematika
