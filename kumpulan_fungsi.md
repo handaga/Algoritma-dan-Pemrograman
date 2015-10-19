@@ -31,4 +31,4 @@ nama fungsi / variabel | Keterangan
 ` double pow(double x, double y) ` | untuk menghitung x pangkat y
 ` double sqrt(double x) ` | untuk menghitung akar kwadrat
 ` double exp(double x) ` | untuk menghitung bilang e pangkat x, e = 2,718282
-`  double cbrt  (double x) ` | untuk menghitung akar pangkat tiga dari x, note: hanya berlaku pada versi kompiler c terbaru
+` double cbrt  (double x) ` | untuk menghitung akar pangkat tiga dari x, ***note: hanya berlaku pada versi kompiler c/c++ terbaru***
