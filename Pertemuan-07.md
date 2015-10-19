@@ -328,10 +328,6 @@ Syntax:
 
     continue;
     
-Diagram alir:
-
-![Continue](https://cdn.rawgit.com/handaga/Algoritma-dan-Pemrograman/master/images/ch-07-06.svg)
-> Gambar-7.6 Perintah continue
 
 
 Contoh:
@@ -375,7 +371,7 @@ Output:
 
 Diagram alir:
 
-![Goto](https://cdn.rawgit.com/handaga/Algoritma-dan-Pemrograman/master/images/ch-07-07.svg)
+![Continue](https://cdn.rawgit.com/handaga/Algoritma-dan-Pemrograman/master/images/ch-07-06.svg)
 > Gambar-7.5 Goto Lable
 
 Syntax:
