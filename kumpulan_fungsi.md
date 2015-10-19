@@ -31,3 +31,27 @@ nama fungsi / variabel | Keterangan
 ` double sqrt(double x) ` | untuk menghitung akar kwadrat
 ` double exp(double x) ` | untuk menghitung bilang e pangkat x, e = 2,718282
 ` double cbrt  (double x) ` | untuk menghitung akar pangkat tiga dari x, ***note: hanya berlaku pada versi kompiler c/c++ terbaru***
+
+
+## Time (time.h)
+
+nama fungsi / variabel | Keterangan 
+--- | ---
+` size_t ` | tipe data ` unsigned int ` kembali dari fungsi ` sizeof() ` 
+` clock_t ` | tipe data untuk menyimpan waktu processor 
+` time_t ` | biasa digunakan untuk menyimpan data kalender 
+` struct tm ` | biasa digunakan untuk menyimpan waktu (time) dan tanggal (date)
+` CLOCKS_PER_SEC ` | jumlah clock processesor per detik
+` time_t time(time_t *timer) ` | menghitung waktu kalender saat ini, dan menyimpan datanya dalam bentuk time_t, dengan satuan DETIK, angka yang dihasilkan adalah detik ke N dihitung sejak tanggal ` 1 Januari 1970 `. 
+
+    #include <stdio.h>
+    #include <time.h>
+    int main ()
+    {
+       time_t seconds;
+    
+       seconds = time(NULL);
+       printf("Hours since January 1, 1970 = %ld\n", seconds/3600);
+      
+       return(0);
+    }
