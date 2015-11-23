@@ -32,7 +32,195 @@ Contoh:
 
 
 
+## Structure 
 
+Sebuah tipe data yang dapat digunakan untuk menggabung beberapa tipe data yang lain dalam sebuah group, contoh dekalrasi sebuah variebl tipe structure :
+
+        struct Books {
+           char  title[50];
+           char  author[50];
+           char  subject[100];
+           int   book_id;
+        } book; 
+
+dalam dekalrasikan di atas ` Books ` adalah nama structurenya dan ` book ` adalah nama alias (nama lain) dari structur, bukan NAMA VARIABEL structure. Untuk membaca isi varaiabel di dalam sebuah structure menggunakan NAMA VARAIABEL STRUCTUR kemudian tanda 'TITK' ( ` . `) dan diikuti dengan nama variabel anggota.
+
+Berikut ini adalah contoh bagaimana menggunakan variabel structure dalam program. 
+
+        #include <stdio.h>
+        #include <string.h>
+         
+        struct Books {
+           char  title[50];
+           char  author[50];
+           char  subject[100];
+           int   book_id;
+        };
+         
+        int main( ) {
+        
+           struct Books Book1;        /* Declare Book1 of type Book */
+           struct Books Book2;        /* Declare Book2 of type Book */
+         
+           /* book 1 specification */
+           strcpy( Book1.title, "C Programming");
+           strcpy( Book1.author, "Nuha Ali"); 
+           strcpy( Book1.subject, "C Programming Tutorial");
+           Book1.book_id = 6495407;
+        
+           /* book 2 specification */
+           strcpy( Book2.title, "Telecom Billing");
+           strcpy( Book2.author, "Zara Ali");
+           strcpy( Book2.subject, "Telecom Billing Tutorial");
+           Book2.book_id = 6495700;
+         
+           /* print Book1 info */
+           printf( "Book 1 title : %s\n", Book1.title);
+           printf( "Book 1 author : %s\n", Book1.author);
+           printf( "Book 1 subject : %s\n", Book1.subject);
+           printf( "Book 1 book_id : %d\n", Book1.book_id);
+        
+           /* print Book2 info */
+           printf( "Book 2 title : %s\n", Book2.title);
+           printf( "Book 2 author : %s\n", Book2.author);
+           printf( "Book 2 subject : %s\n", Book2.subject);
+           printf( "Book 2 book_id : %d\n", Book2.book_id);
+        
+           return 0;
+        }
+
+Ouptut:
+
+        Book 1 title : C Programming
+        Book 1 author : Nuha Ali
+        Book 1 subject : C Programming Tutorial
+        Book 1 book_id : 6495407
+        Book 2 title : Telecom Billing
+        Book 2 author : Zara Ali
+        Book 2 subject : Telecom Billing Tutorial
+        Book 2 book_id : 6495700
+
+> variabel STRUCTURE sebagai parameter sebuah FUNGSI 
+
+        #include <stdio.h>
+        #include <string.h>
+         
+        struct Books {
+           char  title[50];
+           char  author[50];
+           char  subject[100];
+           int   book_id;
+        };
+        
+        /* function declaration */
+        void printBook( struct Books book );
+        
+        int main( ) {
+        
+           struct Books Book1;        /* Declare Book1 of type Book */
+           struct Books Book2;        /* Declare Book2 of type Book */
+         
+           /* book 1 specification */
+           strcpy( Book1.title, "C Programming");
+           strcpy( Book1.author, "Nuha Ali"); 
+           strcpy( Book1.subject, "C Programming Tutorial");
+           Book1.book_id = 6495407;
+        
+           /* book 2 specification */
+           strcpy( Book2.title, "Telecom Billing");
+           strcpy( Book2.author, "Zara Ali");
+           strcpy( Book2.subject, "Telecom Billing Tutorial");
+           Book2.book_id = 6495700;
+         
+           /* print Book1 info */
+           printBook( Book1 );
+        
+           /* Print Book2 info */
+           printBook( Book2 );
+        
+           return 0;
+        }
+        
+        void printBook( struct Books book ) {
+        
+           printf( "Book title : %s\n", book.title);
+           printf( "Book author : %s\n", book.author);
+           printf( "Book subject : %s\n", book.subject);
+           printf( "Book book_id : %d\n", book.book_id);
+        }
+
+Output:
+
+        Book title : C Programming
+        Book author : Nuha Ali
+        Book subject : C Programming Tutorial
+        Book book_id : 6495407
+        Book title : Telecom Billing
+        Book author : Zara Ali
+        Book subject : Telecom Billing Tutorial
+        Book book_id : 6495700
+
+> Pointer untuk menunjuk alamat variabel structure
+
+Untuk membaca nilaivariabel anggota digunakan simbol   ` -> ` sebagai pengganti TITIK dalam variabel structure, Contoh:
+
+
+        #include <stdio.h>
+        #include <string.h>
+         
+        struct Books {
+           char  title[50];
+           char  author[50];
+           char  subject[100];
+           int   book_id;
+        };
+        
+        /* function declaration */
+        void printBook( struct Books *book );
+        int main( ) {
+        
+           struct Books Book1;        /* Declare Book1 of type Book */
+           struct Books Book2;        /* Declare Book2 of type Book */
+         
+           /* book 1 specification */
+           strcpy( Book1.title, "C Programming");
+           strcpy( Book1.author, "Nuha Ali"); 
+           strcpy( Book1.subject, "C Programming Tutorial");
+           Book1.book_id = 6495407;
+        
+           /* book 2 specification */
+           strcpy( Book2.title, "Telecom Billing");
+           strcpy( Book2.author, "Zara Ali");
+           strcpy( Book2.subject, "Telecom Billing Tutorial");
+           Book2.book_id = 6495700;
+         
+           /* print Book1 info by passing address of Book1 */
+           printBook( &Book1 );
+        
+           /* print Book2 info by passing address of Book2 */
+           printBook( &Book2 );
+        
+           return 0;
+        }
+        
+        void printBook( struct Books *book ) {
+        
+           printf( "Book title : %s\n", book->title);
+           printf( "Book author : %s\n", book->author);
+           printf( "Book subject : %s\n", book->subject);
+           printf( "Book book_id : %d\n", book->book_id);
+        }
+
+Output:
+
+        Book title : C Programming
+        Book author : Nuha Ali
+        Book subject : C Programming Tutorial
+        Book book_id : 6495407
+        Book title : Telecom Billing
+        Book author : Zara Ali
+        Book subject : Telecom Billing Tutorial
+        Book book_id : 6495700
 
 
 
