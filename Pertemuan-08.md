@@ -65,12 +65,83 @@ Output dari kode program di atas adalah sebagai berikut:
 
 # Manajemen Memori 
 
-Manajemen memori adalah sebuah cara untuk penggunaan memori secara efisien, yaitu dengan cara hanya menggunakan memori ketika perlu, dan membebaskan memori jika sudah tidak perlu. Hal ini hanya dapat dilakukan dengan menggunakan bantuan variabel POINTER.
+Manajemen memori adalah sebuah cara untuk penggunaan memori secara efisien, yaitu dengan cara hanya menggunakan memori ketika perlu, dan membebaskan memori jika sudah tidak perlu, atau dengan kata lain mengalokasikan memori secara dinamik.  Hal ini hanya dapat dilakukan dengan menggunakan bantuan variabel POINTER.
 
 Terdapat empat fungsi pustaka yang berkaitan dengan manajemen memori yaitu :
-* ` void *calloc(int num, int size); ` : digunakan untuk memesan (mengalokasikan ) memori untuk menyimpan variabel ARRAY sebanyak ` num ` dimana setiap array-nya berukuran  sebanyak ` size ` Byte. 
+* ` void *calloc(int num, int size); ` : digunakan untuk memesan (mengalokasikan ) memori untuk menyimpan variabel ARRAY sebanyak ` num ` dimana setiapelemen array berukuran ` size ` Byte. 
 * ` void free(void *address); ` : digunakan untuk membebaskan memori agar dapat digunakan untuk keperluan lainnya, atau agar aplikasi yang lain dapat memanfaatkannya
 * ` void *malloc(int num); ` : Digunakan untuk mengalokasikan memori sebanyak ` num ` Byte
 * ` void *realloc(void *address, int newsize); ` : digunakan untuk menambah ukuran memori yang sudah pernah dipesan, menjadi berukuran ` newsize ` Byte.
-* 
 
+## Contoh program dengan alokasi memori secara dinamik
+
+        #include <stdio.h>
+        #include <stdlib.h>
+        #include <string.h>
+        
+        int main() {
+        
+           char name[100];
+           char *description;
+        
+           strcpy(name, "Zara Ali");
+        
+           /* allocate memory dynamically */
+           description = malloc( 200 * sizeof(char) );
+           
+           /* 
+           JIka digunakan fungsi calloc menjadi seperti berikut
+           calloc(200, sizeof(char));
+           */
+           
+           
+           if( description == NULL ) {
+              fprintf(stderr, "Error - unable to allocate required memory\n");
+           }
+           else {
+              strcpy( description, "Zara ali a DPS student in class 10th");
+           }
+           
+           printf("Name = %s\n", name );
+           printf("Description: %s\n", description );
+        }
+
+## Memperbesar ukuran memori (realloc) dan membebaskan (free) memori
+
+        #include <stdio.h>
+        #include <stdlib.h>
+        #include <string.h>
+        
+        int main() {
+        
+           char name[100];
+           char *description;
+        
+           strcpy(name, "Zara Ali");
+        
+           /* allocate memory dynamically */
+           description = malloc( 30 * sizeof(char) );
+        	
+           if( description == NULL ) {
+              fprintf(stderr, "Error - unable to allocate required memory\n");
+           }
+           else {
+              strcpy( description, "Zara ali a DPS student.");
+           }
+        	
+           /* suppose you want to store bigger description */
+           description = realloc( description, 100 * sizeof(char) );
+        	
+           if( description == NULL ) {
+              fprintf(stderr, "Error - unable to allocate required memory\n");
+           }
+           else {
+              strcat( description, "She is in class 10th");
+           }
+           
+           printf("Name = %s\n", name );
+           printf("Description: %s\n", description );
+        
+           /* release memory using free() function */
+           free(description);
+        }
