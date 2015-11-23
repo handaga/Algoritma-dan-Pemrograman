@@ -23,3 +23,33 @@ POINTER hanya dapat menunjuk ke **SATU TIPE** variabel. Sebuah variabel pointer 
 * Assign (mengisi) variabel pointer dengan alamat dari sebuah tipe variabel yang ditunjuk sesuai dengan deklarasinya ( ` NP = &VAR `)
 * Membaca NILAI atau ISI alamat yang ditunjuk oleh Pointer ( ` printf("Nilai ALAMAT yang ditunjuk NP adalah %d", *NP `) 
 
+### Contoh penggunaan variabel pointer
+
+        #include <stdio.h>
+        
+        int main () {
+        
+           int  var = 20;   /* actual variable declaration */
+           int  *ip;        /* pointer variable declaration */
+        
+           ip = &var;  /* store address of var in pointer variable*/
+        
+           printf("Address of var variable: %x\n", &var  );
+        
+           /* address stored in pointer variable */
+           printf("Address stored in ip variable: %x\n", ip );
+        
+           /* access the value using the pointer */
+           printf("Value of *ip variable: %d\n", *ip );
+        
+           return 0;
+        }
+
+Output dari kode program di atas adalah sebagai berikut:
+
+        Address of var variable: bffd8b3c
+        Address stored in ip variable: bffd8b3c
+        Value of *ip variable: 20
+
+
+
