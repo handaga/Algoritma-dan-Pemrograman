@@ -222,6 +222,20 @@ Output:
         Book subject : Telecom Billing Tutorial
         Book book_id : 6495700
 
+> Bit Fields
+JUmlah bit yang diperlukan untuk menyimpan data dalam anggota variabel structure dapat ditentukan dengan menggunakan bit field, contoh:
+
+        struct packed_struct {
+           unsigned int f1:1;
+           unsigned int f2:1;
+           unsigned int f3:1;
+           unsigned int f4:1;
+           unsigned int type:4;
+           unsigned int my_int:9;
+        } pack;
+
+Dalam deklarasi di atas anggota ` f1 .. f4 ` menggunakan SATU bit, ` type ` menggunakan EMPAT bit, dan ` my_int ` menggunakan SEMBILAN bit.
+
 
 
 Programmer juga dapat mendefinisikan tipe variabel sendiri berdasarkan tipe variabel dasar dengan perintah ' typedef `
