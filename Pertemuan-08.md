@@ -63,6 +63,331 @@ Output dari kode program di atas adalah sebagai berikut:
 * POinter sebagai argumen dalam sebuah fungsi (` void namafungsi(int *P ) ` ) 
 * Pointer sebagai return value dari sebuah fungsi  (` int * namafungsi(char CH) `)
 
+
+
+### Contoh Operasi matematik dalam pointer
+
+> Operasi PENAMBAHAN (increment)
+
+        #include <stdio.h>
+        
+        const int MAX = 3;
+        
+        int main () {
+        
+           int  var[] = {10, 100, 200};
+           int  i, *ptr;
+        
+           /* let us have array address in pointer */
+           ptr = var;
+        	
+           for ( i = 0; i < MAX; i++) {
+        
+              printf("Address of var[%d] = %x\n", i, ptr );
+              printf("Value of var[%d] = %d\n", i, *ptr );
+        
+              /* move to the next location */
+              ptr++;
+           }
+        	
+           return 0;
+        }
+
+
+Output dari kode program di atas adalah:
+
+        Address of var[0] = bf882b30
+        Value of var[0] = 10
+        Address of var[1] = bf882b34
+        Value of var[1] = 100
+        Address of var[2] = bf882b38
+        Value of var[2] = 200
+
+> Operasi PENGUARANGAN ( Decrement ) 
+
+        #include <stdio.h>
+        
+        const int MAX = 3;
+        
+        int main () {
+        
+           int  var[] = {10, 100, 200};
+           int  i, *ptr;
+        
+           /* let us have array address in pointer */
+           ptr = &var[MAX-1];
+        	
+           for ( i = MAX; i > 0; i--) {
+        
+              printf("Address of var[%d] = %x\n", i, ptr );
+              printf("Value of var[%d] = %d\n", i, *ptr );
+        
+              /* move to the previous location */
+              ptr--;
+           }
+        	
+           return 0;
+        }
+
+Output dari kode program di atas adalah:
+
+        Address of var[3] = bfedbcd8
+        Value of var[3] = 200
+        Address of var[2] = bfedbcd4
+        Value of var[2] = 100
+        Address of var[1] = bfedbcd0
+        Value of var[1] = 10
+
+> Operasi PERBANDINGAN  ( operator yang dapat digunakan  ==, <, dan > )
+
+        #include <stdio.h>
+        
+        const int MAX = 3;
+        
+        int main () {
+        
+           int  var[] = {10, 100, 200};
+           int  i, *ptr;
+        
+           /* let us have address of the first element in pointer */
+           ptr = var;
+           i = 0;
+        	
+           while ( ptr <= &var[MAX - 1] ) {
+        
+              printf("Address of var[%d] = %x\n", i, ptr );
+              printf("Value of var[%d] = %d\n", i, *ptr );
+        
+              /* point to the previous location */
+              ptr++;
+              i++;
+           }
+        	
+           return 0;
+        }
+
+Output dari kode program di atas adalah:
+
+        Address of var[0] = bfdbcb20
+        Value of var[0] = 10
+        Address of var[1] = bfdbcb24
+        Value of var[1] = 100
+        Address of var[2] = bfdbcb28
+        Value of var[2] = 200
+
+
+### Variabel Array dengan Elemen berupa Pointer 
+
+        #include <stdio.h>
+         
+        const int MAX = 3;
+         
+        int main () {
+        
+           int  var[] = {10, 100, 200};
+           int i;
+         
+           for (i = 0; i < MAX; i++) {
+              printf("Value of var[%d] = %d\n", i, var[i] );
+           }
+           
+           return 0;
+        }
+        
+atau
+
+        #include <stdio.h>
+         
+        const int MAX = 3;
+         
+        int main () {
+        
+           int  var[] = {10, 100, 200};
+           int i, *ptr[MAX];
+         
+           for ( i = 0; i < MAX; i++) {
+              ptr[i] = &var[i]; /* assign the address of integer. */
+           }
+           
+           for ( i = 0; i < MAX; i++) {
+              printf("Value of var[%d] = %d\n", i, *ptr[i] );
+           }
+           
+           return 0;
+        }
+
+Output dari kode program di atas adalah:
+
+        Value of var[0] = 10
+        Value of var[1] = 100
+        Value of var[2] = 200
+
+Contoh lain:
+
+        #include <stdio.h>
+         
+        const int MAX = 4;
+         
+        int main () {
+        
+           char *names[] = {
+              "Zara Ali",
+              "Hina Ali",
+              "Nuha Ali",
+              "Sara Ali",
+           };
+           
+           int i = 0;
+        
+           for ( i = 0; i < MAX; i++) {
+              printf("Value of names[%d] = %s\n", i, names[i] );
+           }
+           
+           return 0;
+        }
+
+Output:
+
+        Value of names[0] = Zara Ali
+        Value of names[1] = Hina Ali
+        Value of names[2] = Nuha Ali
+        Value of names[3] = Sara Ali
+
+### Contoh variabel pointer untuk menunjuk ke variabel pointer laiinya (Pointer dari pointer)
+
+        #include <stdio.h>
+         
+        int main () {
+        
+           int  var;
+           int  *ptr;
+           int  **pptr;
+        
+           var = 3000;
+        
+           /* take the address of var */
+           ptr = &var;
+        
+           /* take the address of ptr using address of operator & */
+           pptr = &ptr;
+        
+           /* take the value using pptr */
+           printf("Value of var = %d\n", var );
+           printf("Value available at *ptr = %d\n", *ptr );
+           printf("Value available at **pptr = %d\n", **pptr);
+        
+           return 0;
+        }
+
+Output:
+
+        Value of var = 3000
+        Value available at *ptr = 3000
+        Value available at **pptr = 3000
+
+
+### Contoh Pointer sebagai Argumen dalam fungsi 
+
+        #include <stdio.h>
+         
+        /* function declaration */
+        double getAverage(int *arr, int size);
+         
+        int main () {
+        
+           /* an int array with 5 elements */
+           int balance[5] = {1000, 2, 3, 17, 50};
+           double avg;
+         
+           /* pass pointer to the array as an argument */
+           avg = getAverage( balance, 5 ) ;
+         
+           /* output the returned value  */
+           printf("Average value is: %f\n", avg );
+           return 0;
+        }
+        
+        double getAverage(int *arr, int size) {
+        
+           int  i, sum = 0;       
+           double avg;          
+         
+           for (i = 0; i < size; ++i) {
+              sum += arr[i];
+           }
+         
+           avg = (double)sum / size;
+           return avg;
+        }
+
+Output:
+
+        Average value is: 214.40000
+
+
+### Contoh Pointer sebagai RETURN TYPE sebuah fungsi 
+
+        #include <stdio.h>
+        #include <time.h>
+         
+        /* function to generate and retrun random numbers. */
+        int * getRandom( ) {
+        
+           static int  r[10];
+           int i;
+         
+           /* set the seed */
+           srand( (unsigned)time( NULL ) );
+        	
+           for ( i = 0; i < 10; ++i) {
+              r[i] = rand();
+              printf("%d\n", r[i] );
+           }
+         
+           return r;
+        }
+         
+        /* main function to call above defined function */
+        int main () {
+        
+           /* a pointer to an int */
+           int *p;
+           int i;
+        
+           p = getRandom();
+        	
+           for ( i = 0; i < 10; i++ ) {
+              printf("*(p + [%d]) : %d\n", i, *(p + i) );
+           }
+         
+           return 0;
+        }
+
+Output:
+
+        1523198053
+        1187214107
+        1108300978
+        430494959
+        1421301276
+        930971084
+        123250484
+        106932140
+        1604461820
+        149169022
+        *(p + [0]) : 1523198053
+        *(p + [1]) : 1187214107
+        *(p + [2]) : 1108300978
+        *(p + [3]) : 430494959
+        *(p + [4]) : 1421301276
+        *(p + [5]) : 930971084
+        *(p + [6]) : 123250484
+        *(p + [7]) : 106932140
+        *(p + [8]) : 1604461820
+        *(p + [9]) : 149169022
+
+
+
 # Manajemen Memori 
 
 Manajemen memori adalah sebuah cara untuk penggunaan memori secara efisien, yaitu dengan cara hanya menggunakan memori ketika perlu, dan membebaskan memori jika sudah tidak perlu, atau dengan kata lain mengalokasikan memori secara dinamik.  Hal ini hanya dapat dilakukan dengan menggunakan bantuan variabel POINTER.
