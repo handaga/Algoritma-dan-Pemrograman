@@ -16,3 +16,10 @@ contoh deklarasi variable pointer:
 
 note:
 POINTER hanya dapat menunjuk ke **SATU TIPE** variabel. Sebuah variabel pointer yang dideklarasikan sebagai pointer variabel integer **TIDAK BOLEH** digunakan untuk menunjuk ke variabel tipe char, float atau tipe yang lainnya.
+
+## Cara menggunakana variabel Pointer
+
+* Deklarasi variabel pointer   ( ` int * NP; int VAR; //pointer variabel integer  `);
+* Assign (mengisi) variabel pointer dengan alamat dari sebuah tipe variabel yang ditunjuk sesuai dengan deklarasinya ( ` NP = &VAR `)
+* Membaca NILAI atau ISI alamat yang ditunjuk oleh Pointer ( ` printf("Nilai ALAMAT yang ditunjuk NP adalah %d", *NP `) 
+
