@@ -26,8 +26,6 @@ Pointer yang belum diisi dengan sebauah alamat disebut ` NULL POINTER ` (tidak m
 * Assign (mengisi) variabel pointer dengan alamat dari sebuah tipe variabel yang ditunjuk sesuai dengan deklarasinya ( ` NP = &VAR `)
 * Membaca NILAI atau ISI alamat yang ditunjuk oleh Pointer ( ` printf("Nilai ALAMAT yang ditunjuk NP adalah %d", *NP `) 
 
-
-## Beberapa pengguanaan matematika dalam pointer
 ### Contoh penggunaan variabel pointer
 
         #include <stdio.h>
@@ -65,4 +63,14 @@ Output dari kode program di atas adalah sebagai berikut:
 * POinter sebagai argumen dalam sebuah fungsi (` void namafungsi(int *P ) ` ) 
 * Pointer sebagai return value dari sebuah fungsi  (` int * namafungsi(char CH) `)
 
+# Manajemen Memori 
+
+Manajemen memori adalah sebuah cara untuk penggunaan memori secara efisien, yaitu dengan cara hanya menggunakan memori ketika perlu, dan membebaskan memori jika sudah tidak perlu. Hal ini hanya dapat dilakukan dengan menggunakan bantuan variabel POINTER.
+
+Terdapat empat fungsi pustaka yang berkaitan dengan manajemen memori yaitu :
+* ` void *calloc(int num, int size); ` : digunakan untuk memesan (mengalokasikan ) memori untuk menyimpan variabel ARRAY sebanyak ` num ` dimana setiap array-nya berukuran  sebanyak ` size ` Byte. 
+* ` void free(void *address); ` : digunakan untuk membebaskan memori agar dapat digunakan untuk keperluan lainnya, atau agar aplikasi yang lain dapat memanfaatkannya
+* ` void *malloc(int num); ` : Digunakan untuk mengalokasikan memori sebanyak ` num ` Byte
+* ` void *realloc(void *address, int newsize); ` : digunakan untuk menambah ukuran memori yang sudah pernah dipesan, menjadi berukuran ` newsize ` Byte.
+* 
 
