@@ -17,12 +17,17 @@ contoh deklarasi variable pointer:
 note:
 POINTER hanya dapat menunjuk ke **SATU TIPE** variabel. Sebuah variabel pointer yang dideklarasikan sebagai pointer variabel integer **TIDAK BOLEH** digunakan untuk menunjuk ke variabel tipe char, float atau tipe yang lainnya.
 
+## NULL POINTER 
+Pointer yang belum diisi dengan sebauah alamat disebut ` NULL POINTER ` (tidak menunjuk ke alamat manapun)
+
 ## Cara menggunakana variabel Pointer
 
 * Deklarasi variabel pointer   ( ` int * NP; int VAR; //pointer variabel integer  `);
 * Assign (mengisi) variabel pointer dengan alamat dari sebuah tipe variabel yang ditunjuk sesuai dengan deklarasinya ( ` NP = &VAR `)
 * Membaca NILAI atau ISI alamat yang ditunjuk oleh Pointer ( ` printf("Nilai ALAMAT yang ditunjuk NP adalah %d", *NP `) 
 
+
+## Beberapa pengguanaan matematika dalam pointer
 ### Contoh penggunaan variabel pointer
 
         #include <stdio.h>
@@ -51,5 +56,13 @@ Output dari kode program di atas adalah sebagai berikut:
         Address stored in ip variable: bffd8b3c
         Value of *ip variable: 20
 
+
+## Operasi dalam pointer
+
+* Operasi Matematika  ( ` NP++ `): Alamat akan bertambah sesuai dengan jumlah memori variabel yang ditunjuk, tipe `int * NP ` akan bertambah EMPAT ALAMT (4 ALAMAT), sedangkan tipe ` char * NP ` akan bertambah SATU (1 ALAMAT) 
+* Array Pointer, sebuah array dengan elemen berupa pointer (` char *AP[5] `) 
+* Pointer dari variabel pointer yang lain  (` **DP `)
+* POinter sebagai argumen dalam sebuah fungsi (` void namafungsi(int *P ) ` ) 
+* Pointer sebagai return value dari sebuah fungsi  (` int * namafungsi(char CH) `)
 
 
