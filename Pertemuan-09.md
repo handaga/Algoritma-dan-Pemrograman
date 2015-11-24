@@ -27,8 +27,8 @@ Contoh:
 * ` strcat(s1, s2); ` : Menggabung ` s2 ` dan ` s1 `, dengan ` s1 ` diletakkan di depan ` s2 `
 * ` strlen(s1); `: menghitung jumlah huruf dalam ` s1 ` (tidak termasuk karakter NULL)
 * ` strcmp(s1, s2); ` : Membandingkan dua string, hasil sama dengan NOL (0) jika SAMA, NEGATIF jika `s1` lebih pendek dari `s2` dan POSITIF jika `s1` lebih panjang dari ` s2 `.
-* ` strchr(s1, ch); ` : Mencarai huruf ` ch ` dalam string ` s1 `, hasil berupa angka integer yang menunjukkan posisi huruf ` CH ` dalam string, jika ` CH ` ditemukan, dihitung dari kiri.
-* ` strstr(s1, s2); `: Mencari potongan string ` s2 ` dalam string ` s1 `, hasil berupa angka integer yang menunjukkan  posisi huruf pertama string ` s2 ` dalam ` s1 `, jika ditemukan, mulai dari posisi kiri.
+* ` strchr(s1, ch); ` : Mencarai huruf ` ch ` dalam string ` s1 `, hasil berupa POINTER yang menunjuk ke alamat huruf ` ch ` dalam string ` s1 `, jika ` ch  ` ditemukan.
+* ` strstr(s1, s2); `: Mencari potongan string ` s2 ` dalam string ` s1 `, hasil berupa POINTER yang menunjuk  ke alamat huruf pertama string ` s2 ` dalam ` s1 `, jika ditemukan.
 
 ## Contoh mencari HURUF dalam STRING:
 
@@ -46,6 +46,56 @@ Contoh:
             ++result; // Increment result, otherwise we'll find target at the same location
           }
         }
+
+
+## Contoh mencari string (s2) dalam string yang lain (s1) 
+
+        /* strstr example */
+        #include <stdio.h>
+        #include <string.h>
+        
+        int main ()
+        {
+          char str[] ="This is a simple string";
+          char * pch;
+          pch = strstr (str,"simple");
+          strncpy (pch,"sample",6);
+          puts (str);
+          return 0;
+        }
+
+> Contoh lain
+
+        #include <string.h>
+        #include <stdio.h>
+         
+        void find_str(char const* str, char const* substr) 
+        {
+            char* pos = strstr(str, substr);
+            if(pos) {
+                printf("found the string '%s' in '%s' at position: %ld\n", substr, str, pos - str);
+            } else {
+                printf("the string '%s' was not found in '%s'\n", substr, str);
+            }
+        }
+         
+        int main(void) 
+        {
+            char* str = "one two three";
+            find_str(str, "two");
+            find_str(str, "");
+            find_str(str, "nine");
+            find_str(str, "n");
+         
+            return 0;
+        }
+
+Output:
+
+        found the string 'two' in 'one two three' at position: 4
+        found the string '' in 'one two three' at position: 0
+        the string 'nine' was not found in 'one two three'
+        found the string 'n' in 'one two three' at position: 1
 
 ## Structure 
 
