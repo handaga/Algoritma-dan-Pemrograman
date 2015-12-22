@@ -93,3 +93,6 @@ main() {
 > S++   sama dengan  S = S+1,   kode yang mana yang lebih menguntungkan dan mengapa?
 
 S++ lebih disarankan sebab, dalam komputer perintah INCREMENT dapat dieksekusi hanya dengan  1 CLOCK SAJA, sehingga S++ akan lebih cepat dieksekusi. (S=S+1  memerlukan  >5 CLOCK)
+
+
+Selanjutnya dapat dibaca latihan soal di [www.tutorialspoint.com](http://www.tutorialspoint.com/cprogramming/cprogramming_interview_questions.htm)
