@@ -1,3 +1,6 @@
+> # Catatan Kuliah Semester Ganjil 2016/2017 ada di sini [catatan kuliah 2016] (https://github.com/handaga/algoritma-pemrograman-2016)
+
+
 ## Selamat datang di Wiki Algoritma-dan-Pemrograman
 
 ### Tujuan:
